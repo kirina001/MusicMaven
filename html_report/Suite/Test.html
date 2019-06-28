@@ -1,0 +1,379 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>60/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Jun 28 15:04:04 CST 2019</td>
+</tr>
+<tr><td>Total time:</td><td>0 seconds (752 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.music.maven.DataDrivenInvoke1.f()'><b>f</b><br>Test class: com.music.maven.DataDrivenInvoke1<br>Parameters: 1, 新增用户接口, , ,  , , , , , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.music.maven.DataDrivenInvoke1@56ac3a89</td></tr>
+<tr>
+<td title='com.music.maven.DataDrivenInvoke1.f()'><b>f</b><br>Test class: com.music.maven.DataDrivenInvoke1<br>Parameters: 2, , 前置操作, , , , , , , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.music.maven.DataDrivenInvoke1@56ac3a89</td></tr>
+<tr>
+<td title='com.music.maven.DataDrivenInvoke1.f()'><b>f</b><br>Test class: com.music.maven.DataDrivenInvoke1<br>Parameters: 3, , , 记录cookie, savecookie, , savecookie, , , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.music.maven.DataDrivenInvoke1@56ac3a89</td></tr>
+<tr>
+<td title='com.music.maven.DataDrivenInvoke1.f()'><b>f</b><br>Test class: com.music.maven.DataDrivenInvoke1<br>Parameters: 4, , , 登录, post, http://10.68.170.184:8080/music/api/login, username=admin&password=123456, , equal, message, $.message, 登录成功, , </td>
+<td></td>
+<td>0</td>
+<td>com.music.maven.DataDrivenInvoke1@56ac3a89</td></tr>
+<tr>
+<td title='com.music.maven.DataDrivenInvoke1.f()'><b>f</b><br>Test class: com.music.maven.DataDrivenInvoke1<br>Parameters: 5, , , 注册, postJson, http://10.68.170.184:8080/music/api/user, {'username':'admin1','nickName':'cc','role':{'id':'1'},'password':'c123456'}, , equal, code, $.code, 0, , </td>
+<td></td>
+<td>0</td>
+<td>com.music.maven.DataDrivenInvoke1@56ac3a89</td></tr>
+<tr>
+<td title='com.music.maven.DataDrivenInvoke1.f()'><b>f</b><br>Test class: com.music.maven.DataDrivenInvoke1<br>Parameters: 6, , 边界值用例, , , , , , , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.music.maven.DataDrivenInvoke1@56ac3a89</td></tr>
+<tr>
+<td title='com.music.maven.DataDrivenInvoke1.f()'><b>f</b><br>Test class: com.music.maven.DataDrivenInvoke1<br>Parameters: 7, , , 用户名1位, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c','nickName':'c','role':{'id':'1'},'password':'c123456'}, , equal, code, $.code, 0, , </td>
+<td></td>
+<td>0</td>
+<td>com.music.maven.DataDrivenInvoke1@56ac3a89</td></tr>
+<tr>
+<td title='com.music.maven.DataDrivenInvoke1.f()'><b>f</b><br>Test class: com.music.maven.DataDrivenInvoke1<br>Parameters: 8, , , 用户名2位, postJson, http://10.68.170.184:8080/music/api/user, {'username':'cc','nickName':'cc','role':{'id':'1'},'password':'c123456'}, , equal, code, $.code, 0, , </td>
+<td></td>
+<td>0</td>
+<td>com.music.maven.DataDrivenInvoke1@56ac3a89</td></tr>
+<tr>
+<td title='com.music.maven.DataDrivenInvoke1.f()'><b>f</b><br>Test class: com.music.maven.DataDrivenInvoke1<br>Parameters: 9, , , 用户名18位, postJson, http://10.68.170.184:8080/music/api/user, {'username':'cccccccccccccccccc','nickName':'ccc','role':{'id':'1'},'password':'c123456'}, , equal, code, $.code, 0, , </td>
+<td></td>
+<td>0</td>
+<td>com.music.maven.DataDrivenInvoke1@56ac3a89</td></tr>
+<tr>
+<td title='com.music.maven.DataDrivenInvoke1.f()'><b>f</b><br>Test class: com.music.maven.DataDrivenInvoke1<br>Parameters: 10, , , 密码5位, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c1','nickName':'cc','role':{'id':'1'},'password':'c1234'}, , equal, code, $.code, 0, , </td>
+<td></td>
+<td>0</td>
+<td>com.music.maven.DataDrivenInvoke1@56ac3a89</td></tr>
+<tr>
+<td title='com.music.maven.DataDrivenInvoke1.f()'><b>f</b><br>Test class: com.music.maven.DataDrivenInvoke1<br>Parameters: 11, , , 密码6位, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c2','nickName':'cc','role':{'id':'1'},'password':'c12345'}, , equal, code, $.code, 0, , </td>
+<td></td>
+<td>0</td>
+<td>com.music.maven.DataDrivenInvoke1@56ac3a89</td></tr>
+<tr>
+<td title='com.music.maven.DataDrivenInvoke1.f()'><b>f</b><br>Test class: com.music.maven.DataDrivenInvoke1<br>Parameters: 12, , , 密码7位, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c3','nickName':'cc','role':{'id':'1'},'password':'c123456'}, , equal, code, $.code, 0, , </td>
+<td></td>
+<td>0</td>
+<td>com.music.maven.DataDrivenInvoke1@56ac3a89</td></tr>
+<tr>
+<td title='com.music.maven.DataDrivenInvoke1.f()'><b>f</b><br>Test class: com.music.maven.DataDrivenInvoke1<br>Parameters: 13, , , 密码17位, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c4','nickName':'cc','role':{'id':'1'},'password':'c1234560000000000'}, , equal, code, $.code, 0, , </td>
+<td></td>
+<td>0</td>
+<td>com.music.maven.DataDrivenInvoke1@56ac3a89</td></tr>
+<tr>
+<td title='com.music.maven.DataDrivenInvoke1.f()'><b>f</b><br>Test class: com.music.maven.DataDrivenInvoke1<br>Parameters: 14, , , 密码18位, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c5','nickName':'cc','role':{'id':'1'},'password':'c12345600000000000'}, , equal, code, $.code, 0, , </td>
+<td></td>
+<td>0</td>
+<td>com.music.maven.DataDrivenInvoke1@56ac3a89</td></tr>
+<tr>
+<td title='com.music.maven.DataDrivenInvoke1.f()'><b>f</b><br>Test class: com.music.maven.DataDrivenInvoke1<br>Parameters: 15, , , 密码19位, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c6','nickName':'cc','role':{'id':'1'},'password':'c123456000000000000'}, , equal, code, $.code, 0, , </td>
+<td></td>
+<td>0</td>
+<td>com.music.maven.DataDrivenInvoke1@56ac3a89</td></tr>
+<tr>
+<td title='com.music.maven.DataDrivenInvoke1.f()'><b>f</b><br>Test class: com.music.maven.DataDrivenInvoke1<br>Parameters: 16, , , 昵称1位, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c7','nickName':'c','role':{'id':'1'},'password':'c123456'}, , equal, code, $.code, 0, , </td>
+<td></td>
+<td>0</td>
+<td>com.music.maven.DataDrivenInvoke1@56ac3a89</td></tr>
+<tr>
+<td title='com.music.maven.DataDrivenInvoke1.f()'><b>f</b><br>Test class: com.music.maven.DataDrivenInvoke1<br>Parameters: 17, , , 昵称2位, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c8','nickName':'cc','role':{'id':'1'},'password':'c123456'}, , equal, code, $.code, 0, , </td>
+<td></td>
+<td>0</td>
+<td>com.music.maven.DataDrivenInvoke1@56ac3a89</td></tr>
+<tr>
+<td title='com.music.maven.DataDrivenInvoke1.f()'><b>f</b><br>Test class: com.music.maven.DataDrivenInvoke1<br>Parameters: 18, , , 昵称18位, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c9','nickName':'cccccccccccccccccc','role':{'id':'1'},'password':'c123456'}, , equal, code, $.code, 0, , </td>
+<td></td>
+<td>0</td>
+<td>com.music.maven.DataDrivenInvoke1@56ac3a89</td></tr>
+<tr>
+<td title='com.music.maven.DataDrivenInvoke1.f()'><b>f</b><br>Test class: com.music.maven.DataDrivenInvoke1<br>Parameters: 19, , 等价类用例, , , , , , , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.music.maven.DataDrivenInvoke1@56ac3a89</td></tr>
+<tr>
+<td title='com.music.maven.DataDrivenInvoke1.f()'><b>f</b><br>Test class: com.music.maven.DataDrivenInvoke1<br>Parameters: 20, , , 用户名包含中文, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c测试','nickName':'cc','role':{'id':'1'},'password':'c123456'}, , equal, code, $.code, 0, , </td>
+<td></td>
+<td>0</td>
+<td>com.music.maven.DataDrivenInvoke1@56ac3a89</td></tr>
+<tr>
+<td title='com.music.maven.DataDrivenInvoke1.f()'><b>f</b><br>Test class: com.music.maven.DataDrivenInvoke1<br>Parameters: 21, , , 昵称包含中文, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c10','nickName':'测试','role':{'id':'1'},'password':'c123456'}, , equal, code, $.code, 0, , </td>
+<td></td>
+<td>0</td>
+<td>com.music.maven.DataDrivenInvoke1@56ac3a89</td></tr>
+<tr>
+<td title='com.music.maven.DataDrivenInvoke1.f()'><b>f</b><br>Test class: com.music.maven.DataDrivenInvoke1<br>Parameters: 22, , , 密码包含中文, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c11','nickName':'c11','role':{'id':'1'},'password':'测试c123456'}, , equal, code, $.code, 0, , </td>
+<td></td>
+<td>0</td>
+<td>com.music.maven.DataDrivenInvoke1@56ac3a89</td></tr>
+<tr>
+<td title='com.music.maven.DataDrivenInvoke1.f()'><b>f</b><br>Test class: com.music.maven.DataDrivenInvoke1<br>Parameters: 23, , , 用户名已存在, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c1','nickName':'cc','role':{'id':'1'},'password':'c1234'}, , equal, data, $.data, 记录已存在, , </td>
+<td></td>
+<td>0</td>
+<td>com.music.maven.DataDrivenInvoke1@56ac3a89</td></tr>
+<tr>
+<td title='com.music.maven.DataDrivenInvoke1.f()'><b>f</b><br>Test class: com.music.maven.DataDrivenInvoke1<br>Parameters: 24, , , 填写多余参数, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c40','nickName':'cc','role':{'id':'1'},'password':'c1234','cc':'a123456'}, , equal, code, $.code, 0, , </td>
+<td></td>
+<td>0</td>
+<td>com.music.maven.DataDrivenInvoke1@56ac3a89</td></tr>
+<tr>
+<td title='com.music.maven.DataDrivenInvoke1.f()'><b>f</b><br>Test class: com.music.maven.DataDrivenInvoke1<br>Parameters: 25, , , 密码为6位纯数字, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c30','nickName':'cc','role':{'id':'1'},'password':'cccccc'}, , equal, detail, $.detail, 密码必须为6-18位字母、数字组成, , </td>
+<td></td>
+<td>0</td>
+<td>com.music.maven.DataDrivenInvoke1@56ac3a89</td></tr>
+<tr>
+<td title='com.music.maven.DataDrivenInvoke1.f()'><b>f</b><br>Test class: com.music.maven.DataDrivenInvoke1<br>Parameters: 26, , , 密码为6位纯字母, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c31','nickName':'cc','role':{'id':'1'},'password':'111111'}, , equal, detail, $.detail, 密码必须为6-18位字母、数字组成, , </td>
+<td></td>
+<td>0</td>
+<td>com.music.maven.DataDrivenInvoke1@56ac3a89</td></tr>
+<tr>
+<td title='com.music.maven.DataDrivenInvoke1.f()'><b>f</b><br>Test class: com.music.maven.DataDrivenInvoke1<br>Parameters: 27, , , 用户名为纯数字, postJson, http://10.68.170.184:8080/music/api/user, {'username':'30','nickName':'cc','role':{'id':'1'},'password':'c123456'}, , equal, code, $.code, 0, , </td>
+<td></td>
+<td>0</td>
+<td>com.music.maven.DataDrivenInvoke1@56ac3a89</td></tr>
+<tr>
+<td title='com.music.maven.DataDrivenInvoke1.f()'><b>f</b><br>Test class: com.music.maven.DataDrivenInvoke1<br>Parameters: 28, , , 用户名为纯字母, postJson, http://10.68.170.184:8080/music/api/user, {'username':'ccccc','nickName':'cc','role':{'id':'1'},'password':'c11111'}, , equal, code, $.code, 0, , </td>
+<td></td>
+<td>0</td>
+<td>com.music.maven.DataDrivenInvoke1@56ac3a89</td></tr>
+<tr>
+<td title='com.music.maven.DataDrivenInvoke1.f()'><b>f</b><br>Test class: com.music.maven.DataDrivenInvoke1<br>Parameters: 29, , , 昵称为纯数字, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c32','nickName':'11111','role':{'id':'1'},'password':'c123456'}, , equal, code, $.code, 0, , </td>
+<td></td>
+<td>0</td>
+<td>com.music.maven.DataDrivenInvoke1@56ac3a89</td></tr>
+<tr>
+<td title='com.music.maven.DataDrivenInvoke1.f()'><b>f</b><br>Test class: com.music.maven.DataDrivenInvoke1<br>Parameters: 30, , , 昵称为纯字母, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c33','nickName':'ccccccc','role':{'id':'1'},'password':'c11111'}, , equal, code, $.code, 0, , </td>
+<td></td>
+<td>0</td>
+<td>com.music.maven.DataDrivenInvoke1@56ac3a89</td></tr>
+<tr>
+<td title='com.music.maven.DataDrivenInvoke1.f()'><b>f</b><br>Test class: com.music.maven.DataDrivenInvoke1<br>Parameters: 31, , 异常用例, , , , , , , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.music.maven.DataDrivenInvoke1@56ac3a89</td></tr>
+<tr>
+<td title='com.music.maven.DataDrivenInvoke1.f()'><b>f</b><br>Test class: com.music.maven.DataDrivenInvoke1<br>Parameters: 32, , （空输入）, , , , , , , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.music.maven.DataDrivenInvoke1@56ac3a89</td></tr>
+<tr>
+<td title='com.music.maven.DataDrivenInvoke1.f()'><b>f</b><br>Test class: com.music.maven.DataDrivenInvoke1<br>Parameters: 33, , , 用户名字段为空, postJson, http://10.68.170.184:8080/music/api/user, {'username':'','nickName':'cc','role':{'id':'1'},'password':'c123456'}, , equal, detail, $.detail, 账号不能为空, , </td>
+<td></td>
+<td>0</td>
+<td>com.music.maven.DataDrivenInvoke1@56ac3a89</td></tr>
+<tr>
+<td title='com.music.maven.DataDrivenInvoke1.f()'><b>f</b><br>Test class: com.music.maven.DataDrivenInvoke1<br>Parameters: 34, , , 昵称字段为空, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c12','nickName':'','role':{'id':'1'},'password':'c123456'}, , equal, detail, $.detail, 用户名称不能为空, , </td>
+<td></td>
+<td>0</td>
+<td>com.music.maven.DataDrivenInvoke1@56ac3a89</td></tr>
+<tr>
+<td title='com.music.maven.DataDrivenInvoke1.f()'><b>f</b><br>Test class: com.music.maven.DataDrivenInvoke1<br>Parameters: 35, , , 密码字段为空, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c13','nickName':'c11','role':{'id':'1'},'password':''}, , equal, detail, $.detail, 密码不能为空, , </td>
+<td></td>
+<td>0</td>
+<td>com.music.maven.DataDrivenInvoke1@56ac3a89</td></tr>
+<tr>
+<td title='com.music.maven.DataDrivenInvoke1.f()'><b>f</b><br>Test class: com.music.maven.DataDrivenInvoke1<br>Parameters: 36, , , 用户名字段不存在, postJson, http://10.68.170.184:8080/music/api/user, {'nickName':'cc','role':{'id':'1'},'password':'c123457'}, , equal, detail, $.detail, 账号不能为空, , </td>
+<td></td>
+<td>0</td>
+<td>com.music.maven.DataDrivenInvoke1@56ac3a89</td></tr>
+<tr>
+<td title='com.music.maven.DataDrivenInvoke1.f()'><b>f</b><br>Test class: com.music.maven.DataDrivenInvoke1<br>Parameters: 37, , , 昵称字段不存在, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c12','role':{'id':'1'},'password':'c123457'}, , equal, detail, $.detail, 用户名称不能为空, , </td>
+<td></td>
+<td>0</td>
+<td>com.music.maven.DataDrivenInvoke1@56ac3a89</td></tr>
+<tr>
+<td title='com.music.maven.DataDrivenInvoke1.f()'><b>f</b><br>Test class: com.music.maven.DataDrivenInvoke1<br>Parameters: 38, , , 密码字段不存在, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c13','nickName':'c11','role':{'id':'2'}}, , equal, detail, $.detail, 密码不能为空, , </td>
+<td></td>
+<td>0</td>
+<td>com.music.maven.DataDrivenInvoke1@56ac3a89</td></tr>
+<tr>
+<td title='com.music.maven.DataDrivenInvoke1.f()'><b>f</b><br>Test class: com.music.maven.DataDrivenInvoke1<br>Parameters: 39, , （特殊字符、长度、重复操作）, , , , , , , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.music.maven.DataDrivenInvoke1@56ac3a89</td></tr>
+<tr>
+<td title='com.music.maven.DataDrivenInvoke1.f()'><b>f</b><br>Test class: com.music.maven.DataDrivenInvoke1<br>Parameters: 40, , , 用户名有空格, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c 20','nickName':'cc','role':{'id':'1'},'password':'c1234'}, , equal, code, $.code, 0, , </td>
+<td></td>
+<td>0</td>
+<td>com.music.maven.DataDrivenInvoke1@56ac3a89</td></tr>
+<tr>
+<td title='com.music.maven.DataDrivenInvoke1.f()'><b>f</b><br>Test class: com.music.maven.DataDrivenInvoke1<br>Parameters: 41, , , 昵称有空格, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c19','nickName':'c c','role':{'id':'1'},'password':'c1234'}, , equal, code, $.code, 0, , </td>
+<td></td>
+<td>0</td>
+<td>com.music.maven.DataDrivenInvoke1@56ac3a89</td></tr>
+<tr>
+<td title='com.music.maven.DataDrivenInvoke1.f()'><b>f</b><br>Test class: com.music.maven.DataDrivenInvoke1<br>Parameters: 42, , , 密码有空格, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c18','nickName':'cc','role':{'id':'1'},'password':'c 1234'}, , equal, code, $.code, 0, , </td>
+<td></td>
+<td>0</td>
+<td>com.music.maven.DataDrivenInvoke1@56ac3a89</td></tr>
+<tr>
+<td title='com.music.maven.DataDrivenInvoke1.f()'><b>f</b><br>Test class: com.music.maven.DataDrivenInvoke1<br>Parameters: 43, , , 用户名有单引号, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c\'15','nickName':'cc','role':{'id':'1'},'password':'c1234'}, , equal, code, $.code, 0, , </td>
+<td></td>
+<td>0</td>
+<td>com.music.maven.DataDrivenInvoke1@56ac3a89</td></tr>
+<tr>
+<td title='com.music.maven.DataDrivenInvoke1.f()'><b>f</b><br>Test class: com.music.maven.DataDrivenInvoke1<br>Parameters: 44, , , 昵称有单引号, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c16','nickName':'c\'c','role':{'id':'1'},'password':'c1234'}, , equal, code, $.code, 0, , </td>
+<td></td>
+<td>0</td>
+<td>com.music.maven.DataDrivenInvoke1@56ac3a89</td></tr>
+<tr>
+<td title='com.music.maven.DataDrivenInvoke1.f()'><b>f</b><br>Test class: com.music.maven.DataDrivenInvoke1<br>Parameters: 45, , , 密码有单引号, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c17','nickName':'cc','role':{'id':'1'},'password':'c\'1234'}, , equal, code, $.code, 0, , </td>
+<td></td>
+<td>0</td>
+<td>com.music.maven.DataDrivenInvoke1@56ac3a89</td></tr>
+<tr>
+<td title='com.music.maven.DataDrivenInvoke1.f()'><b>f</b><br>Test class: com.music.maven.DataDrivenInvoke1<br>Parameters: 46, , , 用户名有双引号, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c\"21','nickName':'cc','role':{'id':'1'},'password':'c1234'}, , equal, code, $.code, 0, , </td>
+<td></td>
+<td>0</td>
+<td>com.music.maven.DataDrivenInvoke1@56ac3a89</td></tr>
+<tr>
+<td title='com.music.maven.DataDrivenInvoke1.f()'><b>f</b><br>Test class: com.music.maven.DataDrivenInvoke1<br>Parameters: 47, , , 昵称有双引号, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c22','nickName':'c\"c','role':{'id':'1'},'password':'c1234'}, , equal, code, $.code, 0, , </td>
+<td></td>
+<td>0</td>
+<td>com.music.maven.DataDrivenInvoke1@56ac3a89</td></tr>
+<tr>
+<td title='com.music.maven.DataDrivenInvoke1.f()'><b>f</b><br>Test class: com.music.maven.DataDrivenInvoke1<br>Parameters: 48, , , 密码有双引号, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c23','nickName':'cc','role':{'id':'1'},'password':'c\"1234'}, , equal, code, $.code, 0, , </td>
+<td></td>
+<td>0</td>
+<td>com.music.maven.DataDrivenInvoke1@56ac3a89</td></tr>
+<tr>
+<td title='com.music.maven.DataDrivenInvoke1.f()'><b>f</b><br>Test class: com.music.maven.DataDrivenInvoke1<br>Parameters: 49, , , 用户名有表情☜, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c☜','nickName':'cc','role':{'id':'1'},'password':'c1234'}, , equal, code, $.code, 0, , </td>
+<td></td>
+<td>0</td>
+<td>com.music.maven.DataDrivenInvoke1@56ac3a89</td></tr>
+<tr>
+<td title='com.music.maven.DataDrivenInvoke1.f()'><b>f</b><br>Test class: com.music.maven.DataDrivenInvoke1<br>Parameters: 50, , , 昵称有表情☜, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c24','nickName':'c☜','role':{'id':'1'},'password':'c1234'}, , equal, code, $.code, 0, , </td>
+<td></td>
+<td>0</td>
+<td>com.music.maven.DataDrivenInvoke1@56ac3a89</td></tr>
+<tr>
+<td title='com.music.maven.DataDrivenInvoke1.f()'><b>f</b><br>Test class: com.music.maven.DataDrivenInvoke1<br>Parameters: 51, , , 密码有表情☜, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c25','nickName':'cc','role':{'id':'1'},'password':'c☜1234'}, , equal, code, $.code, 0, , </td>
+<td></td>
+<td>0</td>
+<td>com.music.maven.DataDrivenInvoke1@56ac3a89</td></tr>
+<tr>
+<td title='com.music.maven.DataDrivenInvoke1.f()'><b>f</b><br>Test class: com.music.maven.DataDrivenInvoke1<br>Parameters: 52, , , 用户名有特殊字符??, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c??','nickName':'cc','role':{'id':'1'},'password':'c1234'}, , equal, code, $.code, 0, , </td>
+<td></td>
+<td>0</td>
+<td>com.music.maven.DataDrivenInvoke1@56ac3a89</td></tr>
+<tr>
+<td title='com.music.maven.DataDrivenInvoke1.f()'><b>f</b><br>Test class: com.music.maven.DataDrivenInvoke1<br>Parameters: 53, , , 昵称有特殊字符??, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c26','nickName':'c??','role':{'id':'1'},'password':'c1234'}, , equal, code, $.code, 0, , </td>
+<td></td>
+<td>0</td>
+<td>com.music.maven.DataDrivenInvoke1@56ac3a89</td></tr>
+<tr>
+<td title='com.music.maven.DataDrivenInvoke1.f()'><b>f</b><br>Test class: com.music.maven.DataDrivenInvoke1<br>Parameters: 54, , , 密码有特殊字符??, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c27','nickName':'cc','role':{'id':'1'},'password':'c??1234'}, , equal, code, $.code, 0, , </td>
+<td></td>
+<td>0</td>
+<td>com.music.maven.DataDrivenInvoke1@56ac3a89</td></tr>
+<tr>
+<td title='com.music.maven.DataDrivenInvoke1.f()'><b>f</b><br>Test class: com.music.maven.DataDrivenInvoke1<br>Parameters: 55, , , 用户名长度操作100个字, postJson, http://10.68.170.184:8080/music/api/user, {'username':'cRoyperlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1','nickName':'cc','role':{'id':'1'},'password':'c1234'}, , equal, code, $.code, 0, , </td>
+<td></td>
+<td>0</td>
+<td>com.music.maven.DataDrivenInvoke1@56ac3a89</td></tr>
+<tr>
+<td title='com.music.maven.DataDrivenInvoke1.f()'><b>f</b><br>Test class: com.music.maven.DataDrivenInvoke1<br>Parameters: 56, , , 昵称长度操作100个字, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c28','nickName':'cRoyperlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1','role':{'id':'1'},'password':'c1234'}, , equal, code, $.code, 0, , </td>
+<td></td>
+<td>0</td>
+<td>com.music.maven.DataDrivenInvoke1@56ac3a89</td></tr>
+<tr>
+<td title='com.music.maven.DataDrivenInvoke1.f()'><b>f</b><br>Test class: com.music.maven.DataDrivenInvoke1<br>Parameters: 57, , , 密码长度操作100个字, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c29','nickName':'cc','role':{'id':'1'},'password':'cRoyperlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1'}, , equal, code, $.code, 0, , </td>
+<td></td>
+<td>0</td>
+<td>com.music.maven.DataDrivenInvoke1@56ac3a89</td></tr>
+<tr>
+<td title='com.music.maven.DataDrivenInvoke1.f()'><b>f</b><br>Test class: com.music.maven.DataDrivenInvoke1<br>Parameters: 58, , 逻辑组合, , , , , , , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.music.maven.DataDrivenInvoke1@56ac3a89</td></tr>
+<tr>
+<td title='com.music.maven.DataDrivenInvoke1.f()'><b>f</b><br>Test class: com.music.maven.DataDrivenInvoke1<br>Parameters: 59, , , 登出, post, http://10.68.170.184:8080/music/api/logout, , , equal, result, $.result, success, , </td>
+<td></td>
+<td>0</td>
+<td>com.music.maven.DataDrivenInvoke1@56ac3a89</td></tr>
+<tr>
+<td title='com.music.maven.DataDrivenInvoke1.f()'><b>f</b><br>Test class: com.music.maven.DataDrivenInvoke1<br>Parameters: 60, , , 未登录进行添加用户, postJson, http://10.68.170.184:8080/music/api/user, {'username':'cadmin2','nickName':'cc2','role':{'id':'1'},'password':'c123456'}, , equal, message, $.message, 您还未登录, , </td>
+<td></td>
+<td>0</td>
+<td>com.music.maven.DataDrivenInvoke1@56ac3a89</td></tr>
+</table><p>
+</body>
+</html>

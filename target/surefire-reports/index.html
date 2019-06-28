@@ -1,0 +1,1480 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Suite">
+              <span class="suite-name border-passed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Suite">
+                    <span>D:\space\eclipse\MusicMaven\testng_music.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">60 methods,   60 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.music.maven.DataDrivenInvoke1" hash-for-method="f(5, , , 注册, postJson, http://10.68.170.184:8080/music/api/user, {&#039;username&#039;:&#039;admin1&#039;,&#039;nickName&#039;:&#039;cc&#039;,...)">f(5, , , 注册, postJson, http://10.68.170.184:8080/music/api/user, {'username':'admin1','nickName':'cc',...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.music.maven.DataDrivenInvoke1" hash-for-method="f(36, , , 用户名字段不存在, postJson, http://10.68.170.184:8080/music/api/user, {&#039;nickName&#039;:&#039;cc&#039;,&#039;role&#039;:{&#039;id&#039;:...)">f(36, , , 用户名字段不存在, postJson, http://10.68.170.184:8080/music/api/user, {'nickName':'cc','role':{'id':...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.music.maven.DataDrivenInvoke1" hash-for-method="f(21, , , 昵称包含中文, postJson, http://10.68.170.184:8080/music/api/user, {&#039;username&#039;:&#039;c10&#039;,&#039;nickName&#039;:&#039;测试...)">f(21, , , 昵称包含中文, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c10','nickName':'测试...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.music.maven.DataDrivenInvoke1" hash-for-method="f(50, , , 昵称有表情☜, postJson, http://10.68.170.184:8080/music/api/user, {&#039;username&#039;:&#039;c24&#039;,&#039;nickName&#039;:&#039;c☜...)">f(50, , , 昵称有表情☜, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c24','nickName':'c☜...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.music.maven.DataDrivenInvoke1" hash-for-method="f(14, , , 密码18位, postJson, http://10.68.170.184:8080/music/api/user, {&#039;username&#039;:&#039;c5&#039;,&#039;nickName&#039;:&#039;cc&#039;,...)">f(14, , , 密码18位, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c5','nickName':'cc',...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.music.maven.DataDrivenInvoke1" hash-for-method="f(24, , , 填写多余参数, postJson, http://10.68.170.184:8080/music/api/user, {&#039;username&#039;:&#039;c40&#039;,&#039;nickName&#039;:&#039;cc...)">f(24, , , 填写多余参数, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c40','nickName':'cc...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.music.maven.DataDrivenInvoke1" hash-for-method="f(41, , , 昵称有空格, postJson, http://10.68.170.184:8080/music/api/user, {&#039;username&#039;:&#039;c19&#039;,&#039;nickName&#039;:&#039;c c...)">f(41, , , 昵称有空格, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c19','nickName':'c c...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.music.maven.DataDrivenInvoke1" hash-for-method="f(44, , , 昵称有单引号, postJson, http://10.68.170.184:8080/music/api/user, {&#039;username&#039;:&#039;c16&#039;,&#039;nickName&#039;:&#039;c\...)">f(44, , , 昵称有单引号, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c16','nickName':'c\...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.music.maven.DataDrivenInvoke1" hash-for-method="f(46, , , 用户名有双引号, postJson, http://10.68.170.184:8080/music/api/user, {&#039;username&#039;:&#039;c\&quot;21&#039;,&#039;nickName&#039;:...)">f(46, , , 用户名有双引号, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c\"21','nickName':...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.music.maven.DataDrivenInvoke1" hash-for-method="f(34, , , 昵称字段为空, postJson, http://10.68.170.184:8080/music/api/user, {&#039;username&#039;:&#039;c12&#039;,&#039;nickName&#039;:&#039;&#039;,...)">f(34, , , 昵称字段为空, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c12','nickName':'',...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.music.maven.DataDrivenInvoke1" hash-for-method="f(15, , , 密码19位, postJson, http://10.68.170.184:8080/music/api/user, {&#039;username&#039;:&#039;c6&#039;,&#039;nickName&#039;:&#039;cc&#039;,...)">f(15, , , 密码19位, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c6','nickName':'cc',...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.music.maven.DataDrivenInvoke1" hash-for-method="f(17, , , 昵称2位, postJson, http://10.68.170.184:8080/music/api/user, {&#039;username&#039;:&#039;c8&#039;,&#039;nickName&#039;:&#039;cc&#039;,&#039;...)">f(17, , , 昵称2位, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c8','nickName':'cc','...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.music.maven.DataDrivenInvoke1" hash-for-method="f(10, , , 密码5位, postJson, http://10.68.170.184:8080/music/api/user, {&#039;username&#039;:&#039;c1&#039;,&#039;nickName&#039;:&#039;cc&#039;,&#039;...)">f(10, , , 密码5位, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c1','nickName':'cc','...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.music.maven.DataDrivenInvoke1" hash-for-method="f(30, , , 昵称为纯字母, postJson, http://10.68.170.184:8080/music/api/user, {&#039;username&#039;:&#039;c33&#039;,&#039;nickName&#039;:&#039;cc...)">f(30, , , 昵称为纯字母, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c33','nickName':'cc...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.music.maven.DataDrivenInvoke1" hash-for-method="f(4, , , 登录, post, http://10.68.170.184:8080/music/api/login, username=admin&amp;password=123456, , equal,...)">f(4, , , 登录, post, http://10.68.170.184:8080/music/api/login, username=admin&password=123456, , equal,...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.music.maven.DataDrivenInvoke1" hash-for-method="f(49, , , 用户名有表情☜, postJson, http://10.68.170.184:8080/music/api/user, {&#039;username&#039;:&#039;c☜&#039;,&#039;nickName&#039;:&#039;cc...)">f(49, , , 用户名有表情☜, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c☜','nickName':'cc...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.music.maven.DataDrivenInvoke1" hash-for-method="f(25, , , 密码为6位纯数字, postJson, http://10.68.170.184:8080/music/api/user, {&#039;username&#039;:&#039;c30&#039;,&#039;nickName&#039;:&#039;...)">f(25, , , 密码为6位纯数字, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c30','nickName':'...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.music.maven.DataDrivenInvoke1" hash-for-method="f(52, , , 用户名有特殊字符??, postJson, http://10.68.170.184:8080/music/api/user, {&#039;username&#039;:&#039;c??&#039;,&#039;nickName&#039;...)">f(52, , , 用户名有特殊字符??, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c??','nickName'...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.music.maven.DataDrivenInvoke1" hash-for-method="f(40, , , 用户名有空格, postJson, http://10.68.170.184:8080/music/api/user, {&#039;username&#039;:&#039;c 20&#039;,&#039;nickName&#039;:&#039;c...)">f(40, , , 用户名有空格, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c 20','nickName':'c...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.music.maven.DataDrivenInvoke1" hash-for-method="f(45, , , 密码有单引号, postJson, http://10.68.170.184:8080/music/api/user, {&#039;username&#039;:&#039;c17&#039;,&#039;nickName&#039;:&#039;cc...)">f(45, , , 密码有单引号, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c17','nickName':'cc...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.music.maven.DataDrivenInvoke1" hash-for-method="f(32, , （空输入）, , , , , , , , , , , )">f(32, , （空输入）, , , , , , , , , , , )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.music.maven.DataDrivenInvoke1" hash-for-method="f(13, , , 密码17位, postJson, http://10.68.170.184:8080/music/api/user, {&#039;username&#039;:&#039;c4&#039;,&#039;nickName&#039;:&#039;cc&#039;,...)">f(13, , , 密码17位, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c4','nickName':'cc',...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.music.maven.DataDrivenInvoke1" hash-for-method="f(35, , , 密码字段为空, postJson, http://10.68.170.184:8080/music/api/user, {&#039;username&#039;:&#039;c13&#039;,&#039;nickName&#039;:&#039;c1...)">f(35, , , 密码字段为空, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c13','nickName':'c1...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.music.maven.DataDrivenInvoke1" hash-for-method="f(1, 新增用户接口, , ,  , , , , , , , , , )">f(1, 新增用户接口, , ,  , , , , , , , , , )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.music.maven.DataDrivenInvoke1" hash-for-method="f(43, , , 用户名有单引号, postJson, http://10.68.170.184:8080/music/api/user, {&#039;username&#039;:&#039;c\&#039;15&#039;,&#039;nickName&#039;:...)">f(43, , , 用户名有单引号, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c\'15','nickName':...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.music.maven.DataDrivenInvoke1" hash-for-method="f(19, , 等价类用例, , , , , , , , , , , )">f(19, , 等价类用例, , , , , , , , , , , )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.music.maven.DataDrivenInvoke1" hash-for-method="f(47, , , 昵称有双引号, postJson, http://10.68.170.184:8080/music/api/user, {&#039;username&#039;:&#039;c22&#039;,&#039;nickName&#039;:&#039;c\...)">f(47, , , 昵称有双引号, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c22','nickName':'c\...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.music.maven.DataDrivenInvoke1" hash-for-method="f(8, , , 用户名2位, postJson, http://10.68.170.184:8080/music/api/user, {&#039;username&#039;:&#039;cc&#039;,&#039;nickName&#039;:&#039;cc&#039;,&#039;...)">f(8, , , 用户名2位, postJson, http://10.68.170.184:8080/music/api/user, {'username':'cc','nickName':'cc','...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.music.maven.DataDrivenInvoke1" hash-for-method="f(2, , 前置操作, , , , , , , , , , , )">f(2, , 前置操作, , , , , , , , , , , )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.music.maven.DataDrivenInvoke1" hash-for-method="f(6, , 边界值用例, , , , , , , , , , , )">f(6, , 边界值用例, , , , , , , , , , , )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.music.maven.DataDrivenInvoke1" hash-for-method="f(56, , , 昵称长度操作100个字, postJson, http://10.68.170.184:8080/music/api/user, {&#039;username&#039;:&#039;c28&#039;,&#039;nickName...)">f(56, , , 昵称长度操作100个字, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c28','nickName...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.music.maven.DataDrivenInvoke1" hash-for-method="f(29, , , 昵称为纯数字, postJson, http://10.68.170.184:8080/music/api/user, {&#039;username&#039;:&#039;c32&#039;,&#039;nickName&#039;:&#039;11...)">f(29, , , 昵称为纯数字, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c32','nickName':'11...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.music.maven.DataDrivenInvoke1" hash-for-method="f(20, , , 用户名包含中文, postJson, http://10.68.170.184:8080/music/api/user, {&#039;username&#039;:&#039;c测试&#039;,&#039;nickName&#039;:&#039;c...)">f(20, , , 用户名包含中文, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c测试','nickName':'c...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.music.maven.DataDrivenInvoke1" hash-for-method="f(59, , , 登出, post, http://10.68.170.184:8080/music/api/logout, , , equal, result, $.result, success, ...)">f(59, , , 登出, post, http://10.68.170.184:8080/music/api/logout, , , equal, result, $.result, success, ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.music.maven.DataDrivenInvoke1" hash-for-method="f(12, , , 密码7位, postJson, http://10.68.170.184:8080/music/api/user, {&#039;username&#039;:&#039;c3&#039;,&#039;nickName&#039;:&#039;cc&#039;,&#039;...)">f(12, , , 密码7位, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c3','nickName':'cc','...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.music.maven.DataDrivenInvoke1" hash-for-method="f(16, , , 昵称1位, postJson, http://10.68.170.184:8080/music/api/user, {&#039;username&#039;:&#039;c7&#039;,&#039;nickName&#039;:&#039;c&#039;,&#039;r...)">f(16, , , 昵称1位, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c7','nickName':'c','r...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.music.maven.DataDrivenInvoke1" hash-for-method="f(48, , , 密码有双引号, postJson, http://10.68.170.184:8080/music/api/user, {&#039;username&#039;:&#039;c23&#039;,&#039;nickName&#039;:&#039;cc...)">f(48, , , 密码有双引号, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c23','nickName':'cc...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.music.maven.DataDrivenInvoke1" hash-for-method="f(57, , , 密码长度操作100个字, postJson, http://10.68.170.184:8080/music/api/user, {&#039;username&#039;:&#039;c29&#039;,&#039;nickName...)">f(57, , , 密码长度操作100个字, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c29','nickName...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.music.maven.DataDrivenInvoke1" hash-for-method="f(51, , , 密码有表情☜, postJson, http://10.68.170.184:8080/music/api/user, {&#039;username&#039;:&#039;c25&#039;,&#039;nickName&#039;:&#039;cc...)">f(51, , , 密码有表情☜, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c25','nickName':'cc...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.music.maven.DataDrivenInvoke1" hash-for-method="f(27, , , 用户名为纯数字, postJson, http://10.68.170.184:8080/music/api/user, {&#039;username&#039;:&#039;30&#039;,&#039;nickName&#039;:&#039;cc...)">f(27, , , 用户名为纯数字, postJson, http://10.68.170.184:8080/music/api/user, {'username':'30','nickName':'cc...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.music.maven.DataDrivenInvoke1" hash-for-method="f(55, , , 用户名长度操作100个字, postJson, http://10.68.170.184:8080/music/api/user, {&#039;username&#039;:&#039;cRoyperlly1pe...)">f(55, , , 用户名长度操作100个字, postJson, http://10.68.170.184:8080/music/api/user, {'username':'cRoyperlly1pe...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.music.maven.DataDrivenInvoke1" hash-for-method="f(33, , , 用户名字段为空, postJson, http://10.68.170.184:8080/music/api/user, {&#039;username&#039;:&#039;&#039;,&#039;nickName&#039;:&#039;cc&#039;,...)">f(33, , , 用户名字段为空, postJson, http://10.68.170.184:8080/music/api/user, {'username':'','nickName':'cc',...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.music.maven.DataDrivenInvoke1" hash-for-method="f(37, , , 昵称字段不存在, postJson, http://10.68.170.184:8080/music/api/user, {&#039;username&#039;:&#039;c12&#039;,&#039;role&#039;:{&#039;id&#039;:...)">f(37, , , 昵称字段不存在, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c12','role':{'id':...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.music.maven.DataDrivenInvoke1" hash-for-method="f(3, , , 记录cookie, savecookie, , savecookie, , , , , , , )">f(3, , , 记录cookie, savecookie, , savecookie, , , , , , , )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.music.maven.DataDrivenInvoke1" hash-for-method="f(38, , , 密码字段不存在, postJson, http://10.68.170.184:8080/music/api/user, {&#039;username&#039;:&#039;c13&#039;,&#039;nickName&#039;:&#039;c...)">f(38, , , 密码字段不存在, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c13','nickName':'c...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.music.maven.DataDrivenInvoke1" hash-for-method="f(23, , , 用户名已存在, postJson, http://10.68.170.184:8080/music/api/user, {&#039;username&#039;:&#039;c1&#039;,&#039;nickName&#039;:&#039;cc&#039;...)">f(23, , , 用户名已存在, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c1','nickName':'cc'...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.music.maven.DataDrivenInvoke1" hash-for-method="f(31, , 异常用例, , , , , , , , , , , )">f(31, , 异常用例, , , , , , , , , , , )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.music.maven.DataDrivenInvoke1" hash-for-method="f(7, , , 用户名1位, postJson, http://10.68.170.184:8080/music/api/user, {&#039;username&#039;:&#039;c&#039;,&#039;nickName&#039;:&#039;c&#039;,&#039;ro...)">f(7, , , 用户名1位, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c','nickName':'c','ro...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.music.maven.DataDrivenInvoke1" hash-for-method="f(18, , , 昵称18位, postJson, http://10.68.170.184:8080/music/api/user, {&#039;username&#039;:&#039;c9&#039;,&#039;nickName&#039;:&#039;cccc...)">f(18, , , 昵称18位, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c9','nickName':'cccc...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.music.maven.DataDrivenInvoke1" hash-for-method="f(26, , , 密码为6位纯字母, postJson, http://10.68.170.184:8080/music/api/user, {&#039;username&#039;:&#039;c31&#039;,&#039;nickName&#039;:&#039;...)">f(26, , , 密码为6位纯字母, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c31','nickName':'...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.music.maven.DataDrivenInvoke1" hash-for-method="f(53, , , 昵称有特殊字符??, postJson, http://10.68.170.184:8080/music/api/user, {&#039;username&#039;:&#039;c26&#039;,&#039;nickName&#039;:...)">f(53, , , 昵称有特殊字符??, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c26','nickName':...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.music.maven.DataDrivenInvoke1" hash-for-method="f(28, , , 用户名为纯字母, postJson, http://10.68.170.184:8080/music/api/user, {&#039;username&#039;:&#039;ccccc&#039;,&#039;nickName&#039;:...)">f(28, , , 用户名为纯字母, postJson, http://10.68.170.184:8080/music/api/user, {'username':'ccccc','nickName':...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.music.maven.DataDrivenInvoke1" hash-for-method="f(9, , , 用户名18位, postJson, http://10.68.170.184:8080/music/api/user, {&#039;username&#039;:&#039;cccccccccccccccccc&#039;,...)">f(9, , , 用户名18位, postJson, http://10.68.170.184:8080/music/api/user, {'username':'cccccccccccccccccc',...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.music.maven.DataDrivenInvoke1" hash-for-method="f(54, , , 密码有特殊字符??, postJson, http://10.68.170.184:8080/music/api/user, {&#039;username&#039;:&#039;c27&#039;,&#039;nickName&#039;:...)">f(54, , , 密码有特殊字符??, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c27','nickName':...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.music.maven.DataDrivenInvoke1" hash-for-method="f(11, , , 密码6位, postJson, http://10.68.170.184:8080/music/api/user, {&#039;username&#039;:&#039;c2&#039;,&#039;nickName&#039;:&#039;cc&#039;,&#039;...)">f(11, , , 密码6位, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c2','nickName':'cc','...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.music.maven.DataDrivenInvoke1" hash-for-method="f(60, , , 未登录进行添加用户, postJson, http://10.68.170.184:8080/music/api/user, {&#039;username&#039;:&#039;cadmin2&#039;,&#039;nickNa...)">f(60, , , 未登录进行添加用户, postJson, http://10.68.170.184:8080/music/api/user, {'username':'cadmin2','nickNa...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.music.maven.DataDrivenInvoke1" hash-for-method="f(42, , , 密码有空格, postJson, http://10.68.170.184:8080/music/api/user, {&#039;username&#039;:&#039;c18&#039;,&#039;nickName&#039;:&#039;cc&#039;...)">f(42, , , 密码有空格, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c18','nickName':'cc'...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.music.maven.DataDrivenInvoke1" hash-for-method="f(39, , （特殊字符、长度、重复操作）, , , , , , , , , , , )">f(39, , （特殊字符、长度、重复操作）, , , , , , , , , , , )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.music.maven.DataDrivenInvoke1" hash-for-method="f(58, , 逻辑组合, , , , , , , , , , , )">f(58, , 逻辑组合, , , , , , , , , , , )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.music.maven.DataDrivenInvoke1" hash-for-method="f(22, , , 密码包含中文, postJson, http://10.68.170.184:8080/music/api/user, {&#039;username&#039;:&#039;c11&#039;,&#039;nickName&#039;:&#039;c1...)">f(22, , , 密码包含中文, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c11','nickName':'c1...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.music.maven.DataDrivenInvoke1</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="f(5, , , 注册, postJson, http://10.68.170.184:8080/music/api/user, {&#039;username&#039;:&#039;admin1&#039;,&#039;nickName&#039;:&#039;cc&#039;,...)">
+                  </a> <!-- f(5, , , 注册, postJson, http://10.68.170.184:8080/music/api/user, {'username':'admin1','nickName':'cc',...) -->
+                  <span class="method-name">f</span>
+                  <span class="parameters">(5, , , 注册, postJson, http://10.68.170.184:8080/music/api/user, {'username':'admin1','nickName':'cc','role':{'id':'1'},'password':'c123456'}, , equal, code, $.code, 0, , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="f(36, , , 用户名字段不存在, postJson, http://10.68.170.184:8080/music/api/user, {&#039;nickName&#039;:&#039;cc&#039;,&#039;role&#039;:{&#039;id&#039;:...)">
+                  </a> <!-- f(36, , , 用户名字段不存在, postJson, http://10.68.170.184:8080/music/api/user, {'nickName':'cc','role':{'id':...) -->
+                  <span class="method-name">f</span>
+                  <span class="parameters">(36, , , 用户名字段不存在, postJson, http://10.68.170.184:8080/music/api/user, {'nickName':'cc','role':{'id':'1'},'password':'c123457'}, , equal, detail, $.detail, 账号不能为空, , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="f(21, , , 昵称包含中文, postJson, http://10.68.170.184:8080/music/api/user, {&#039;username&#039;:&#039;c10&#039;,&#039;nickName&#039;:&#039;测试...)">
+                  </a> <!-- f(21, , , 昵称包含中文, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c10','nickName':'测试...) -->
+                  <span class="method-name">f</span>
+                  <span class="parameters">(21, , , 昵称包含中文, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c10','nickName':'测试','role':{'id':'1'},'password':'c123456'}, , equal, code, $.code, 0, , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="f(50, , , 昵称有表情☜, postJson, http://10.68.170.184:8080/music/api/user, {&#039;username&#039;:&#039;c24&#039;,&#039;nickName&#039;:&#039;c☜...)">
+                  </a> <!-- f(50, , , 昵称有表情☜, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c24','nickName':'c☜...) -->
+                  <span class="method-name">f</span>
+                  <span class="parameters">(50, , , 昵称有表情☜, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c24','nickName':'c☜','role':{'id':'1'},'password':'c1234'}, , equal, code, $.code, 0, , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="f(14, , , 密码18位, postJson, http://10.68.170.184:8080/music/api/user, {&#039;username&#039;:&#039;c5&#039;,&#039;nickName&#039;:&#039;cc&#039;,...)">
+                  </a> <!-- f(14, , , 密码18位, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c5','nickName':'cc',...) -->
+                  <span class="method-name">f</span>
+                  <span class="parameters">(14, , , 密码18位, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c5','nickName':'cc','role':{'id':'1'},'password':'c12345600000000000'}, , equal, code, $.code, 0, , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="f(24, , , 填写多余参数, postJson, http://10.68.170.184:8080/music/api/user, {&#039;username&#039;:&#039;c40&#039;,&#039;nickName&#039;:&#039;cc...)">
+                  </a> <!-- f(24, , , 填写多余参数, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c40','nickName':'cc...) -->
+                  <span class="method-name">f</span>
+                  <span class="parameters">(24, , , 填写多余参数, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c40','nickName':'cc','role':{'id':'1'},'password':'c1234','cc':'a123456'}, , equal, code, $.code, 0, , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="f(41, , , 昵称有空格, postJson, http://10.68.170.184:8080/music/api/user, {&#039;username&#039;:&#039;c19&#039;,&#039;nickName&#039;:&#039;c c...)">
+                  </a> <!-- f(41, , , 昵称有空格, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c19','nickName':'c c...) -->
+                  <span class="method-name">f</span>
+                  <span class="parameters">(41, , , 昵称有空格, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c19','nickName':'c c','role':{'id':'1'},'password':'c1234'}, , equal, code, $.code, 0, , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="f(44, , , 昵称有单引号, postJson, http://10.68.170.184:8080/music/api/user, {&#039;username&#039;:&#039;c16&#039;,&#039;nickName&#039;:&#039;c\...)">
+                  </a> <!-- f(44, , , 昵称有单引号, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c16','nickName':'c\...) -->
+                  <span class="method-name">f</span>
+                  <span class="parameters">(44, , , 昵称有单引号, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c16','nickName':'c\'c','role':{'id':'1'},'password':'c1234'}, , equal, code, $.code, 0, , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="f(46, , , 用户名有双引号, postJson, http://10.68.170.184:8080/music/api/user, {&#039;username&#039;:&#039;c\&quot;21&#039;,&#039;nickName&#039;:...)">
+                  </a> <!-- f(46, , , 用户名有双引号, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c\"21','nickName':...) -->
+                  <span class="method-name">f</span>
+                  <span class="parameters">(46, , , 用户名有双引号, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c\"21','nickName':'cc','role':{'id':'1'},'password':'c1234'}, , equal, code, $.code, 0, , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="f(34, , , 昵称字段为空, postJson, http://10.68.170.184:8080/music/api/user, {&#039;username&#039;:&#039;c12&#039;,&#039;nickName&#039;:&#039;&#039;,...)">
+                  </a> <!-- f(34, , , 昵称字段为空, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c12','nickName':'',...) -->
+                  <span class="method-name">f</span>
+                  <span class="parameters">(34, , , 昵称字段为空, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c12','nickName':'','role':{'id':'1'},'password':'c123456'}, , equal, detail, $.detail, 用户名称不能为空, , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="f(15, , , 密码19位, postJson, http://10.68.170.184:8080/music/api/user, {&#039;username&#039;:&#039;c6&#039;,&#039;nickName&#039;:&#039;cc&#039;,...)">
+                  </a> <!-- f(15, , , 密码19位, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c6','nickName':'cc',...) -->
+                  <span class="method-name">f</span>
+                  <span class="parameters">(15, , , 密码19位, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c6','nickName':'cc','role':{'id':'1'},'password':'c123456000000000000'}, , equal, code, $.code, 0, , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="f(17, , , 昵称2位, postJson, http://10.68.170.184:8080/music/api/user, {&#039;username&#039;:&#039;c8&#039;,&#039;nickName&#039;:&#039;cc&#039;,&#039;...)">
+                  </a> <!-- f(17, , , 昵称2位, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c8','nickName':'cc','...) -->
+                  <span class="method-name">f</span>
+                  <span class="parameters">(17, , , 昵称2位, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c8','nickName':'cc','role':{'id':'1'},'password':'c123456'}, , equal, code, $.code, 0, , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="f(10, , , 密码5位, postJson, http://10.68.170.184:8080/music/api/user, {&#039;username&#039;:&#039;c1&#039;,&#039;nickName&#039;:&#039;cc&#039;,&#039;...)">
+                  </a> <!-- f(10, , , 密码5位, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c1','nickName':'cc','...) -->
+                  <span class="method-name">f</span>
+                  <span class="parameters">(10, , , 密码5位, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c1','nickName':'cc','role':{'id':'1'},'password':'c1234'}, , equal, code, $.code, 0, , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="f(30, , , 昵称为纯字母, postJson, http://10.68.170.184:8080/music/api/user, {&#039;username&#039;:&#039;c33&#039;,&#039;nickName&#039;:&#039;cc...)">
+                  </a> <!-- f(30, , , 昵称为纯字母, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c33','nickName':'cc...) -->
+                  <span class="method-name">f</span>
+                  <span class="parameters">(30, , , 昵称为纯字母, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c33','nickName':'ccccccc','role':{'id':'1'},'password':'c11111'}, , equal, code, $.code, 0, , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="f(4, , , 登录, post, http://10.68.170.184:8080/music/api/login, username=admin&amp;password=123456, , equal,...)">
+                  </a> <!-- f(4, , , 登录, post, http://10.68.170.184:8080/music/api/login, username=admin&password=123456, , equal,...) -->
+                  <span class="method-name">f</span>
+                  <span class="parameters">(4, , , 登录, post, http://10.68.170.184:8080/music/api/login, username=admin&password=123456, , equal, message, $.message, 登录成功, , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="f(49, , , 用户名有表情☜, postJson, http://10.68.170.184:8080/music/api/user, {&#039;username&#039;:&#039;c☜&#039;,&#039;nickName&#039;:&#039;cc...)">
+                  </a> <!-- f(49, , , 用户名有表情☜, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c☜','nickName':'cc...) -->
+                  <span class="method-name">f</span>
+                  <span class="parameters">(49, , , 用户名有表情☜, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c☜','nickName':'cc','role':{'id':'1'},'password':'c1234'}, , equal, code, $.code, 0, , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="f(25, , , 密码为6位纯数字, postJson, http://10.68.170.184:8080/music/api/user, {&#039;username&#039;:&#039;c30&#039;,&#039;nickName&#039;:&#039;...)">
+                  </a> <!-- f(25, , , 密码为6位纯数字, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c30','nickName':'...) -->
+                  <span class="method-name">f</span>
+                  <span class="parameters">(25, , , 密码为6位纯数字, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c30','nickName':'cc','role':{'id':'1'},'password':'cccccc'}, , equal, detail, $.detail, 密码必须为6-18位字母、数字组成, , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="f(52, , , 用户名有特殊字符??, postJson, http://10.68.170.184:8080/music/api/user, {&#039;username&#039;:&#039;c??&#039;,&#039;nickName&#039;...)">
+                  </a> <!-- f(52, , , 用户名有特殊字符??, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c??','nickName'...) -->
+                  <span class="method-name">f</span>
+                  <span class="parameters">(52, , , 用户名有特殊字符??, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c??','nickName':'cc','role':{'id':'1'},'password':'c1234'}, , equal, code, $.code, 0, , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="f(40, , , 用户名有空格, postJson, http://10.68.170.184:8080/music/api/user, {&#039;username&#039;:&#039;c 20&#039;,&#039;nickName&#039;:&#039;c...)">
+                  </a> <!-- f(40, , , 用户名有空格, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c 20','nickName':'c...) -->
+                  <span class="method-name">f</span>
+                  <span class="parameters">(40, , , 用户名有空格, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c 20','nickName':'cc','role':{'id':'1'},'password':'c1234'}, , equal, code, $.code, 0, , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="f(45, , , 密码有单引号, postJson, http://10.68.170.184:8080/music/api/user, {&#039;username&#039;:&#039;c17&#039;,&#039;nickName&#039;:&#039;cc...)">
+                  </a> <!-- f(45, , , 密码有单引号, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c17','nickName':'cc...) -->
+                  <span class="method-name">f</span>
+                  <span class="parameters">(45, , , 密码有单引号, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c17','nickName':'cc','role':{'id':'1'},'password':'c\'1234'}, , equal, code, $.code, 0, , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="f(32, , （空输入）, , , , , , , , , , , )">
+                  </a> <!-- f(32, , （空输入）, , , , , , , , , , , ) -->
+                  <span class="method-name">f</span>
+                  <span class="parameters">(32, , （空输入）, , , , , , , , , , , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="f(13, , , 密码17位, postJson, http://10.68.170.184:8080/music/api/user, {&#039;username&#039;:&#039;c4&#039;,&#039;nickName&#039;:&#039;cc&#039;,...)">
+                  </a> <!-- f(13, , , 密码17位, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c4','nickName':'cc',...) -->
+                  <span class="method-name">f</span>
+                  <span class="parameters">(13, , , 密码17位, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c4','nickName':'cc','role':{'id':'1'},'password':'c1234560000000000'}, , equal, code, $.code, 0, , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="f(35, , , 密码字段为空, postJson, http://10.68.170.184:8080/music/api/user, {&#039;username&#039;:&#039;c13&#039;,&#039;nickName&#039;:&#039;c1...)">
+                  </a> <!-- f(35, , , 密码字段为空, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c13','nickName':'c1...) -->
+                  <span class="method-name">f</span>
+                  <span class="parameters">(35, , , 密码字段为空, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c13','nickName':'c11','role':{'id':'1'},'password':''}, , equal, detail, $.detail, 密码不能为空, , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="f(1, 新增用户接口, , ,  , , , , , , , , , )">
+                  </a> <!-- f(1, 新增用户接口, , ,  , , , , , , , , , ) -->
+                  <span class="method-name">f</span>
+                  <span class="parameters">(1, 新增用户接口, , ,  , , , , , , , , , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="f(43, , , 用户名有单引号, postJson, http://10.68.170.184:8080/music/api/user, {&#039;username&#039;:&#039;c\&#039;15&#039;,&#039;nickName&#039;:...)">
+                  </a> <!-- f(43, , , 用户名有单引号, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c\'15','nickName':...) -->
+                  <span class="method-name">f</span>
+                  <span class="parameters">(43, , , 用户名有单引号, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c\'15','nickName':'cc','role':{'id':'1'},'password':'c1234'}, , equal, code, $.code, 0, , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="f(19, , 等价类用例, , , , , , , , , , , )">
+                  </a> <!-- f(19, , 等价类用例, , , , , , , , , , , ) -->
+                  <span class="method-name">f</span>
+                  <span class="parameters">(19, , 等价类用例, , , , , , , , , , , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="f(47, , , 昵称有双引号, postJson, http://10.68.170.184:8080/music/api/user, {&#039;username&#039;:&#039;c22&#039;,&#039;nickName&#039;:&#039;c\...)">
+                  </a> <!-- f(47, , , 昵称有双引号, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c22','nickName':'c\...) -->
+                  <span class="method-name">f</span>
+                  <span class="parameters">(47, , , 昵称有双引号, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c22','nickName':'c\"c','role':{'id':'1'},'password':'c1234'}, , equal, code, $.code, 0, , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="f(8, , , 用户名2位, postJson, http://10.68.170.184:8080/music/api/user, {&#039;username&#039;:&#039;cc&#039;,&#039;nickName&#039;:&#039;cc&#039;,&#039;...)">
+                  </a> <!-- f(8, , , 用户名2位, postJson, http://10.68.170.184:8080/music/api/user, {'username':'cc','nickName':'cc','...) -->
+                  <span class="method-name">f</span>
+                  <span class="parameters">(8, , , 用户名2位, postJson, http://10.68.170.184:8080/music/api/user, {'username':'cc','nickName':'cc','role':{'id':'1'},'password':'c123456'}, , equal, code, $.code, 0, , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="f(2, , 前置操作, , , , , , , , , , , )">
+                  </a> <!-- f(2, , 前置操作, , , , , , , , , , , ) -->
+                  <span class="method-name">f</span>
+                  <span class="parameters">(2, , 前置操作, , , , , , , , , , , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="f(6, , 边界值用例, , , , , , , , , , , )">
+                  </a> <!-- f(6, , 边界值用例, , , , , , , , , , , ) -->
+                  <span class="method-name">f</span>
+                  <span class="parameters">(6, , 边界值用例, , , , , , , , , , , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="f(56, , , 昵称长度操作100个字, postJson, http://10.68.170.184:8080/music/api/user, {&#039;username&#039;:&#039;c28&#039;,&#039;nickName...)">
+                  </a> <!-- f(56, , , 昵称长度操作100个字, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c28','nickName...) -->
+                  <span class="method-name">f</span>
+                  <span class="parameters">(56, , , 昵称长度操作100个字, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c28','nickName':'cRoyperlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1','role':{'id':'1'},'password':'c1234'}, , equal, code, $.code, 0, , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="f(29, , , 昵称为纯数字, postJson, http://10.68.170.184:8080/music/api/user, {&#039;username&#039;:&#039;c32&#039;,&#039;nickName&#039;:&#039;11...)">
+                  </a> <!-- f(29, , , 昵称为纯数字, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c32','nickName':'11...) -->
+                  <span class="method-name">f</span>
+                  <span class="parameters">(29, , , 昵称为纯数字, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c32','nickName':'11111','role':{'id':'1'},'password':'c123456'}, , equal, code, $.code, 0, , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="f(20, , , 用户名包含中文, postJson, http://10.68.170.184:8080/music/api/user, {&#039;username&#039;:&#039;c测试&#039;,&#039;nickName&#039;:&#039;c...)">
+                  </a> <!-- f(20, , , 用户名包含中文, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c测试','nickName':'c...) -->
+                  <span class="method-name">f</span>
+                  <span class="parameters">(20, , , 用户名包含中文, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c测试','nickName':'cc','role':{'id':'1'},'password':'c123456'}, , equal, code, $.code, 0, , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="f(59, , , 登出, post, http://10.68.170.184:8080/music/api/logout, , , equal, result, $.result, success, ...)">
+                  </a> <!-- f(59, , , 登出, post, http://10.68.170.184:8080/music/api/logout, , , equal, result, $.result, success, ...) -->
+                  <span class="method-name">f</span>
+                  <span class="parameters">(59, , , 登出, post, http://10.68.170.184:8080/music/api/logout, , , equal, result, $.result, success, , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="f(12, , , 密码7位, postJson, http://10.68.170.184:8080/music/api/user, {&#039;username&#039;:&#039;c3&#039;,&#039;nickName&#039;:&#039;cc&#039;,&#039;...)">
+                  </a> <!-- f(12, , , 密码7位, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c3','nickName':'cc','...) -->
+                  <span class="method-name">f</span>
+                  <span class="parameters">(12, , , 密码7位, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c3','nickName':'cc','role':{'id':'1'},'password':'c123456'}, , equal, code, $.code, 0, , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="f(16, , , 昵称1位, postJson, http://10.68.170.184:8080/music/api/user, {&#039;username&#039;:&#039;c7&#039;,&#039;nickName&#039;:&#039;c&#039;,&#039;r...)">
+                  </a> <!-- f(16, , , 昵称1位, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c7','nickName':'c','r...) -->
+                  <span class="method-name">f</span>
+                  <span class="parameters">(16, , , 昵称1位, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c7','nickName':'c','role':{'id':'1'},'password':'c123456'}, , equal, code, $.code, 0, , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="f(48, , , 密码有双引号, postJson, http://10.68.170.184:8080/music/api/user, {&#039;username&#039;:&#039;c23&#039;,&#039;nickName&#039;:&#039;cc...)">
+                  </a> <!-- f(48, , , 密码有双引号, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c23','nickName':'cc...) -->
+                  <span class="method-name">f</span>
+                  <span class="parameters">(48, , , 密码有双引号, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c23','nickName':'cc','role':{'id':'1'},'password':'c\"1234'}, , equal, code, $.code, 0, , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="f(57, , , 密码长度操作100个字, postJson, http://10.68.170.184:8080/music/api/user, {&#039;username&#039;:&#039;c29&#039;,&#039;nickName...)">
+                  </a> <!-- f(57, , , 密码长度操作100个字, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c29','nickName...) -->
+                  <span class="method-name">f</span>
+                  <span class="parameters">(57, , , 密码长度操作100个字, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c29','nickName':'cc','role':{'id':'1'},'password':'cRoyperlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1'}, , equal, code, $.code, 0, , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="f(51, , , 密码有表情☜, postJson, http://10.68.170.184:8080/music/api/user, {&#039;username&#039;:&#039;c25&#039;,&#039;nickName&#039;:&#039;cc...)">
+                  </a> <!-- f(51, , , 密码有表情☜, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c25','nickName':'cc...) -->
+                  <span class="method-name">f</span>
+                  <span class="parameters">(51, , , 密码有表情☜, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c25','nickName':'cc','role':{'id':'1'},'password':'c☜1234'}, , equal, code, $.code, 0, , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="f(27, , , 用户名为纯数字, postJson, http://10.68.170.184:8080/music/api/user, {&#039;username&#039;:&#039;30&#039;,&#039;nickName&#039;:&#039;cc...)">
+                  </a> <!-- f(27, , , 用户名为纯数字, postJson, http://10.68.170.184:8080/music/api/user, {'username':'30','nickName':'cc...) -->
+                  <span class="method-name">f</span>
+                  <span class="parameters">(27, , , 用户名为纯数字, postJson, http://10.68.170.184:8080/music/api/user, {'username':'30','nickName':'cc','role':{'id':'1'},'password':'c123456'}, , equal, code, $.code, 0, , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="f(55, , , 用户名长度操作100个字, postJson, http://10.68.170.184:8080/music/api/user, {&#039;username&#039;:&#039;cRoyperlly1pe...)">
+                  </a> <!-- f(55, , , 用户名长度操作100个字, postJson, http://10.68.170.184:8080/music/api/user, {'username':'cRoyperlly1pe...) -->
+                  <span class="method-name">f</span>
+                  <span class="parameters">(55, , , 用户名长度操作100个字, postJson, http://10.68.170.184:8080/music/api/user, {'username':'cRoyperlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1','nickName':'cc','role':{'id':'1'},'password':'c1234'}, , equal, code, $.code, 0, , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="f(33, , , 用户名字段为空, postJson, http://10.68.170.184:8080/music/api/user, {&#039;username&#039;:&#039;&#039;,&#039;nickName&#039;:&#039;cc&#039;,...)">
+                  </a> <!-- f(33, , , 用户名字段为空, postJson, http://10.68.170.184:8080/music/api/user, {'username':'','nickName':'cc',...) -->
+                  <span class="method-name">f</span>
+                  <span class="parameters">(33, , , 用户名字段为空, postJson, http://10.68.170.184:8080/music/api/user, {'username':'','nickName':'cc','role':{'id':'1'},'password':'c123456'}, , equal, detail, $.detail, 账号不能为空, , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="f(37, , , 昵称字段不存在, postJson, http://10.68.170.184:8080/music/api/user, {&#039;username&#039;:&#039;c12&#039;,&#039;role&#039;:{&#039;id&#039;:...)">
+                  </a> <!-- f(37, , , 昵称字段不存在, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c12','role':{'id':...) -->
+                  <span class="method-name">f</span>
+                  <span class="parameters">(37, , , 昵称字段不存在, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c12','role':{'id':'1'},'password':'c123457'}, , equal, detail, $.detail, 用户名称不能为空, , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="f(3, , , 记录cookie, savecookie, , savecookie, , , , , , , )">
+                  </a> <!-- f(3, , , 记录cookie, savecookie, , savecookie, , , , , , , ) -->
+                  <span class="method-name">f</span>
+                  <span class="parameters">(3, , , 记录cookie, savecookie, , savecookie, , , , , , , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="f(38, , , 密码字段不存在, postJson, http://10.68.170.184:8080/music/api/user, {&#039;username&#039;:&#039;c13&#039;,&#039;nickName&#039;:&#039;c...)">
+                  </a> <!-- f(38, , , 密码字段不存在, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c13','nickName':'c...) -->
+                  <span class="method-name">f</span>
+                  <span class="parameters">(38, , , 密码字段不存在, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c13','nickName':'c11','role':{'id':'2'}}, , equal, detail, $.detail, 密码不能为空, , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="f(23, , , 用户名已存在, postJson, http://10.68.170.184:8080/music/api/user, {&#039;username&#039;:&#039;c1&#039;,&#039;nickName&#039;:&#039;cc&#039;...)">
+                  </a> <!-- f(23, , , 用户名已存在, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c1','nickName':'cc'...) -->
+                  <span class="method-name">f</span>
+                  <span class="parameters">(23, , , 用户名已存在, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c1','nickName':'cc','role':{'id':'1'},'password':'c1234'}, , equal, data, $.data, 记录已存在, , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="f(31, , 异常用例, , , , , , , , , , , )">
+                  </a> <!-- f(31, , 异常用例, , , , , , , , , , , ) -->
+                  <span class="method-name">f</span>
+                  <span class="parameters">(31, , 异常用例, , , , , , , , , , , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="f(7, , , 用户名1位, postJson, http://10.68.170.184:8080/music/api/user, {&#039;username&#039;:&#039;c&#039;,&#039;nickName&#039;:&#039;c&#039;,&#039;ro...)">
+                  </a> <!-- f(7, , , 用户名1位, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c','nickName':'c','ro...) -->
+                  <span class="method-name">f</span>
+                  <span class="parameters">(7, , , 用户名1位, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c','nickName':'c','role':{'id':'1'},'password':'c123456'}, , equal, code, $.code, 0, , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="f(18, , , 昵称18位, postJson, http://10.68.170.184:8080/music/api/user, {&#039;username&#039;:&#039;c9&#039;,&#039;nickName&#039;:&#039;cccc...)">
+                  </a> <!-- f(18, , , 昵称18位, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c9','nickName':'cccc...) -->
+                  <span class="method-name">f</span>
+                  <span class="parameters">(18, , , 昵称18位, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c9','nickName':'cccccccccccccccccc','role':{'id':'1'},'password':'c123456'}, , equal, code, $.code, 0, , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="f(26, , , 密码为6位纯字母, postJson, http://10.68.170.184:8080/music/api/user, {&#039;username&#039;:&#039;c31&#039;,&#039;nickName&#039;:&#039;...)">
+                  </a> <!-- f(26, , , 密码为6位纯字母, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c31','nickName':'...) -->
+                  <span class="method-name">f</span>
+                  <span class="parameters">(26, , , 密码为6位纯字母, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c31','nickName':'cc','role':{'id':'1'},'password':'111111'}, , equal, detail, $.detail, 密码必须为6-18位字母、数字组成, , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="f(53, , , 昵称有特殊字符??, postJson, http://10.68.170.184:8080/music/api/user, {&#039;username&#039;:&#039;c26&#039;,&#039;nickName&#039;:...)">
+                  </a> <!-- f(53, , , 昵称有特殊字符??, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c26','nickName':...) -->
+                  <span class="method-name">f</span>
+                  <span class="parameters">(53, , , 昵称有特殊字符??, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c26','nickName':'c??','role':{'id':'1'},'password':'c1234'}, , equal, code, $.code, 0, , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="f(28, , , 用户名为纯字母, postJson, http://10.68.170.184:8080/music/api/user, {&#039;username&#039;:&#039;ccccc&#039;,&#039;nickName&#039;:...)">
+                  </a> <!-- f(28, , , 用户名为纯字母, postJson, http://10.68.170.184:8080/music/api/user, {'username':'ccccc','nickName':...) -->
+                  <span class="method-name">f</span>
+                  <span class="parameters">(28, , , 用户名为纯字母, postJson, http://10.68.170.184:8080/music/api/user, {'username':'ccccc','nickName':'cc','role':{'id':'1'},'password':'c11111'}, , equal, code, $.code, 0, , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="f(9, , , 用户名18位, postJson, http://10.68.170.184:8080/music/api/user, {&#039;username&#039;:&#039;cccccccccccccccccc&#039;,...)">
+                  </a> <!-- f(9, , , 用户名18位, postJson, http://10.68.170.184:8080/music/api/user, {'username':'cccccccccccccccccc',...) -->
+                  <span class="method-name">f</span>
+                  <span class="parameters">(9, , , 用户名18位, postJson, http://10.68.170.184:8080/music/api/user, {'username':'cccccccccccccccccc','nickName':'ccc','role':{'id':'1'},'password':'c123456'}, , equal, code, $.code, 0, , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="f(54, , , 密码有特殊字符??, postJson, http://10.68.170.184:8080/music/api/user, {&#039;username&#039;:&#039;c27&#039;,&#039;nickName&#039;:...)">
+                  </a> <!-- f(54, , , 密码有特殊字符??, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c27','nickName':...) -->
+                  <span class="method-name">f</span>
+                  <span class="parameters">(54, , , 密码有特殊字符??, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c27','nickName':'cc','role':{'id':'1'},'password':'c??1234'}, , equal, code, $.code, 0, , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="f(11, , , 密码6位, postJson, http://10.68.170.184:8080/music/api/user, {&#039;username&#039;:&#039;c2&#039;,&#039;nickName&#039;:&#039;cc&#039;,&#039;...)">
+                  </a> <!-- f(11, , , 密码6位, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c2','nickName':'cc','...) -->
+                  <span class="method-name">f</span>
+                  <span class="parameters">(11, , , 密码6位, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c2','nickName':'cc','role':{'id':'1'},'password':'c12345'}, , equal, code, $.code, 0, , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="f(60, , , 未登录进行添加用户, postJson, http://10.68.170.184:8080/music/api/user, {&#039;username&#039;:&#039;cadmin2&#039;,&#039;nickNa...)">
+                  </a> <!-- f(60, , , 未登录进行添加用户, postJson, http://10.68.170.184:8080/music/api/user, {'username':'cadmin2','nickNa...) -->
+                  <span class="method-name">f</span>
+                  <span class="parameters">(60, , , 未登录进行添加用户, postJson, http://10.68.170.184:8080/music/api/user, {'username':'cadmin2','nickName':'cc2','role':{'id':'1'},'password':'c123456'}, , equal, message, $.message, 您还未登录, , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="f(42, , , 密码有空格, postJson, http://10.68.170.184:8080/music/api/user, {&#039;username&#039;:&#039;c18&#039;,&#039;nickName&#039;:&#039;cc&#039;...)">
+                  </a> <!-- f(42, , , 密码有空格, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c18','nickName':'cc'...) -->
+                  <span class="method-name">f</span>
+                  <span class="parameters">(42, , , 密码有空格, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c18','nickName':'cc','role':{'id':'1'},'password':'c 1234'}, , equal, code, $.code, 0, , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="f(39, , （特殊字符、长度、重复操作）, , , , , , , , , , , )">
+                  </a> <!-- f(39, , （特殊字符、长度、重复操作）, , , , , , , , , , , ) -->
+                  <span class="method-name">f</span>
+                  <span class="parameters">(39, , （特殊字符、长度、重复操作）, , , , , , , , , , , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="f(58, , 逻辑组合, , , , , , , , , , , )">
+                  </a> <!-- f(58, , 逻辑组合, , , , , , , , , , , ) -->
+                  <span class="method-name">f</span>
+                  <span class="parameters">(58, , 逻辑组合, , , , , , , , , , , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="f(22, , , 密码包含中文, postJson, http://10.68.170.184:8080/music/api/user, {&#039;username&#039;:&#039;c11&#039;,&#039;nickName&#039;:&#039;c1...)">
+                  </a> <!-- f(22, , , 密码包含中文, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c11','nickName':'c1...) -->
+                  <span class="method-name">f</span>
+                  <span class="parameters">(22, , , 密码包含中文, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c11','nickName':'c11','role':{'id':'1'},'password':'测试c123456'}, , equal, code, $.code, 0, , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\space\eclipse\MusicMaven\testng_music.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;Suite&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.music.maven.DataDrivenInvoke1&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(60);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'f')
+data.setCell(0, 2, 'com.music.maven.DataDrivenInvoke1')
+data.setCell(0, 3, 2);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'f')
+data.setCell(1, 2, 'com.music.maven.DataDrivenInvoke1')
+data.setCell(1, 3, 2);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'f')
+data.setCell(2, 2, 'com.music.maven.DataDrivenInvoke1')
+data.setCell(2, 3, 1);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'f')
+data.setCell(3, 2, 'com.music.maven.DataDrivenInvoke1')
+data.setCell(3, 3, 1);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'f')
+data.setCell(4, 2, 'com.music.maven.DataDrivenInvoke1')
+data.setCell(4, 3, 1);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'f')
+data.setCell(5, 2, 'com.music.maven.DataDrivenInvoke1')
+data.setCell(5, 3, 1);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'f')
+data.setCell(6, 2, 'com.music.maven.DataDrivenInvoke1')
+data.setCell(6, 3, 1);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'f')
+data.setCell(7, 2, 'com.music.maven.DataDrivenInvoke1')
+data.setCell(7, 3, 1);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'f')
+data.setCell(8, 2, 'com.music.maven.DataDrivenInvoke1')
+data.setCell(8, 3, 1);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'f')
+data.setCell(9, 2, 'com.music.maven.DataDrivenInvoke1')
+data.setCell(9, 3, 1);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'f')
+data.setCell(10, 2, 'com.music.maven.DataDrivenInvoke1')
+data.setCell(10, 3, 1);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'f')
+data.setCell(11, 2, 'com.music.maven.DataDrivenInvoke1')
+data.setCell(11, 3, 1);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'f')
+data.setCell(12, 2, 'com.music.maven.DataDrivenInvoke1')
+data.setCell(12, 3, 1);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'f')
+data.setCell(13, 2, 'com.music.maven.DataDrivenInvoke1')
+data.setCell(13, 3, 1);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'f')
+data.setCell(14, 2, 'com.music.maven.DataDrivenInvoke1')
+data.setCell(14, 3, 1);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'f')
+data.setCell(15, 2, 'com.music.maven.DataDrivenInvoke1')
+data.setCell(15, 3, 1);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'f')
+data.setCell(16, 2, 'com.music.maven.DataDrivenInvoke1')
+data.setCell(16, 3, 1);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'f')
+data.setCell(17, 2, 'com.music.maven.DataDrivenInvoke1')
+data.setCell(17, 3, 1);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'f')
+data.setCell(18, 2, 'com.music.maven.DataDrivenInvoke1')
+data.setCell(18, 3, 1);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'f')
+data.setCell(19, 2, 'com.music.maven.DataDrivenInvoke1')
+data.setCell(19, 3, 0);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'f')
+data.setCell(20, 2, 'com.music.maven.DataDrivenInvoke1')
+data.setCell(20, 3, 0);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'f')
+data.setCell(21, 2, 'com.music.maven.DataDrivenInvoke1')
+data.setCell(21, 3, 0);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'f')
+data.setCell(22, 2, 'com.music.maven.DataDrivenInvoke1')
+data.setCell(22, 3, 0);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'f')
+data.setCell(23, 2, 'com.music.maven.DataDrivenInvoke1')
+data.setCell(23, 3, 0);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'f')
+data.setCell(24, 2, 'com.music.maven.DataDrivenInvoke1')
+data.setCell(24, 3, 0);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'f')
+data.setCell(25, 2, 'com.music.maven.DataDrivenInvoke1')
+data.setCell(25, 3, 0);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'f')
+data.setCell(26, 2, 'com.music.maven.DataDrivenInvoke1')
+data.setCell(26, 3, 0);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'f')
+data.setCell(27, 2, 'com.music.maven.DataDrivenInvoke1')
+data.setCell(27, 3, 0);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'f')
+data.setCell(28, 2, 'com.music.maven.DataDrivenInvoke1')
+data.setCell(28, 3, 0);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'f')
+data.setCell(29, 2, 'com.music.maven.DataDrivenInvoke1')
+data.setCell(29, 3, 0);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'f')
+data.setCell(30, 2, 'com.music.maven.DataDrivenInvoke1')
+data.setCell(30, 3, 0);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'f')
+data.setCell(31, 2, 'com.music.maven.DataDrivenInvoke1')
+data.setCell(31, 3, 0);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'f')
+data.setCell(32, 2, 'com.music.maven.DataDrivenInvoke1')
+data.setCell(32, 3, 0);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'f')
+data.setCell(33, 2, 'com.music.maven.DataDrivenInvoke1')
+data.setCell(33, 3, 0);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'f')
+data.setCell(34, 2, 'com.music.maven.DataDrivenInvoke1')
+data.setCell(34, 3, 0);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'f')
+data.setCell(35, 2, 'com.music.maven.DataDrivenInvoke1')
+data.setCell(35, 3, 0);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'f')
+data.setCell(36, 2, 'com.music.maven.DataDrivenInvoke1')
+data.setCell(36, 3, 0);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'f')
+data.setCell(37, 2, 'com.music.maven.DataDrivenInvoke1')
+data.setCell(37, 3, 0);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'f')
+data.setCell(38, 2, 'com.music.maven.DataDrivenInvoke1')
+data.setCell(38, 3, 0);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'f')
+data.setCell(39, 2, 'com.music.maven.DataDrivenInvoke1')
+data.setCell(39, 3, 0);
+data.setCell(40, 0, 40)
+data.setCell(40, 1, 'f')
+data.setCell(40, 2, 'com.music.maven.DataDrivenInvoke1')
+data.setCell(40, 3, 0);
+data.setCell(41, 0, 41)
+data.setCell(41, 1, 'f')
+data.setCell(41, 2, 'com.music.maven.DataDrivenInvoke1')
+data.setCell(41, 3, 0);
+data.setCell(42, 0, 42)
+data.setCell(42, 1, 'f')
+data.setCell(42, 2, 'com.music.maven.DataDrivenInvoke1')
+data.setCell(42, 3, 0);
+data.setCell(43, 0, 43)
+data.setCell(43, 1, 'f')
+data.setCell(43, 2, 'com.music.maven.DataDrivenInvoke1')
+data.setCell(43, 3, 0);
+data.setCell(44, 0, 44)
+data.setCell(44, 1, 'f')
+data.setCell(44, 2, 'com.music.maven.DataDrivenInvoke1')
+data.setCell(44, 3, 0);
+data.setCell(45, 0, 45)
+data.setCell(45, 1, 'f')
+data.setCell(45, 2, 'com.music.maven.DataDrivenInvoke1')
+data.setCell(45, 3, 0);
+data.setCell(46, 0, 46)
+data.setCell(46, 1, 'f')
+data.setCell(46, 2, 'com.music.maven.DataDrivenInvoke1')
+data.setCell(46, 3, 0);
+data.setCell(47, 0, 47)
+data.setCell(47, 1, 'f')
+data.setCell(47, 2, 'com.music.maven.DataDrivenInvoke1')
+data.setCell(47, 3, 0);
+data.setCell(48, 0, 48)
+data.setCell(48, 1, 'f')
+data.setCell(48, 2, 'com.music.maven.DataDrivenInvoke1')
+data.setCell(48, 3, 0);
+data.setCell(49, 0, 49)
+data.setCell(49, 1, 'f')
+data.setCell(49, 2, 'com.music.maven.DataDrivenInvoke1')
+data.setCell(49, 3, 0);
+data.setCell(50, 0, 50)
+data.setCell(50, 1, 'f')
+data.setCell(50, 2, 'com.music.maven.DataDrivenInvoke1')
+data.setCell(50, 3, 0);
+data.setCell(51, 0, 51)
+data.setCell(51, 1, 'f')
+data.setCell(51, 2, 'com.music.maven.DataDrivenInvoke1')
+data.setCell(51, 3, 0);
+data.setCell(52, 0, 52)
+data.setCell(52, 1, 'f')
+data.setCell(52, 2, 'com.music.maven.DataDrivenInvoke1')
+data.setCell(52, 3, 0);
+data.setCell(53, 0, 53)
+data.setCell(53, 1, 'f')
+data.setCell(53, 2, 'com.music.maven.DataDrivenInvoke1')
+data.setCell(53, 3, 0);
+data.setCell(54, 0, 54)
+data.setCell(54, 1, 'f')
+data.setCell(54, 2, 'com.music.maven.DataDrivenInvoke1')
+data.setCell(54, 3, 0);
+data.setCell(55, 0, 55)
+data.setCell(55, 1, 'f')
+data.setCell(55, 2, 'com.music.maven.DataDrivenInvoke1')
+data.setCell(55, 3, 0);
+data.setCell(56, 0, 56)
+data.setCell(56, 1, 'f')
+data.setCell(56, 2, 'com.music.maven.DataDrivenInvoke1')
+data.setCell(56, 3, 0);
+data.setCell(57, 0, 57)
+data.setCell(57, 1, 'f')
+data.setCell(57, 2, 'com.music.maven.DataDrivenInvoke1')
+data.setCell(57, 3, 0);
+data.setCell(58, 0, 58)
+data.setCell(58, 1, 'f')
+data.setCell(58, 2, 'com.music.maven.DataDrivenInvoke1')
+data.setCell(58, 3, 0);
+data.setCell(59, 0, 59)
+data.setCell(59, 1, 'f')
+data.setCell(59, 2, 'com.music.maven.DataDrivenInvoke1')
+data.setCell(59, 3, 0);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 21 ms</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.music.maven.DataDrivenInvoke1</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">beforeSuite</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="test-method">
+                <span class="method-name">f(1, 新增用户接口, , ,  , , , , , , , , , )</span>
+                <span class="method-start">1536 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">f(2, , 前置操作, , , , , , , , , , , )</span>
+                <span class="method-start">1577 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">f(3, , , 记录cookie, savecookie, , savecookie, , , , , , , )</span>
+                <span class="method-start">1578 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">f(4, , , 登录, post, http://10.68.170.184:8080/music/api/login, username=admin&password=123456, , equal,...)</span>
+                <span class="method-start">1579 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">f(5, , , 注册, postJson, http://10.68.170.184:8080/music/api/user, {'username':'admin1','nickName':'cc',...)</span>
+                <span class="method-start">1581 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">f(6, , 边界值用例, , , , , , , , , , , )</span>
+                <span class="method-start">1581 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">f(7, , , 用户名1位, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c','nickName':'c','ro...)</span>
+                <span class="method-start">1584 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">f(8, , , 用户名2位, postJson, http://10.68.170.184:8080/music/api/user, {'username':'cc','nickName':'cc','...)</span>
+                <span class="method-start">1585 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">f(9, , , 用户名18位, postJson, http://10.68.170.184:8080/music/api/user, {'username':'cccccccccccccccccc',...)</span>
+                <span class="method-start">1586 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">f(10, , , 密码5位, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c1','nickName':'cc','...)</span>
+                <span class="method-start">1586 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">f(11, , , 密码6位, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c2','nickName':'cc','...)</span>
+                <span class="method-start">1587 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">f(12, , , 密码7位, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c3','nickName':'cc','...)</span>
+                <span class="method-start">1588 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">f(13, , , 密码17位, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c4','nickName':'cc',...)</span>
+                <span class="method-start">1588 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">f(14, , , 密码18位, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c5','nickName':'cc',...)</span>
+                <span class="method-start">1589 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">f(15, , , 密码19位, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c6','nickName':'cc',...)</span>
+                <span class="method-start">1589 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">f(16, , , 昵称1位, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c7','nickName':'c','r...)</span>
+                <span class="method-start">1590 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">f(17, , , 昵称2位, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c8','nickName':'cc','...)</span>
+                <span class="method-start">1592 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">f(18, , , 昵称18位, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c9','nickName':'cccc...)</span>
+                <span class="method-start">1592 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">f(19, , 等价类用例, , , , , , , , , , , )</span>
+                <span class="method-start">1595 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">f(20, , , 用户名包含中文, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c测试','nickName':'c...)</span>
+                <span class="method-start">1596 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">f(21, , , 昵称包含中文, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c10','nickName':'测试...)</span>
+                <span class="method-start">1596 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">f(22, , , 密码包含中文, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c11','nickName':'c1...)</span>
+                <span class="method-start">1597 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">f(23, , , 用户名已存在, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c1','nickName':'cc'...)</span>
+                <span class="method-start">1598 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">f(24, , , 填写多余参数, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c40','nickName':'cc...)</span>
+                <span class="method-start">1598 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">f(25, , , 密码为6位纯数字, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c30','nickName':'...)</span>
+                <span class="method-start">1599 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">f(26, , , 密码为6位纯字母, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c31','nickName':'...)</span>
+                <span class="method-start">1599 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">f(27, , , 用户名为纯数字, postJson, http://10.68.170.184:8080/music/api/user, {'username':'30','nickName':'cc...)</span>
+                <span class="method-start">1600 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">f(28, , , 用户名为纯字母, postJson, http://10.68.170.184:8080/music/api/user, {'username':'ccccc','nickName':...)</span>
+                <span class="method-start">1600 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">f(29, , , 昵称为纯数字, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c32','nickName':'11...)</span>
+                <span class="method-start">1601 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">f(30, , , 昵称为纯字母, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c33','nickName':'cc...)</span>
+                <span class="method-start">1602 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">f(31, , 异常用例, , , , , , , , , , , )</span>
+                <span class="method-start">1603 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">f(32, , （空输入）, , , , , , , , , , , )</span>
+                <span class="method-start">1603 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">f(33, , , 用户名字段为空, postJson, http://10.68.170.184:8080/music/api/user, {'username':'','nickName':'cc',...)</span>
+                <span class="method-start">1604 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">f(34, , , 昵称字段为空, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c12','nickName':'',...)</span>
+                <span class="method-start">1604 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">f(35, , , 密码字段为空, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c13','nickName':'c1...)</span>
+                <span class="method-start">1605 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">f(36, , , 用户名字段不存在, postJson, http://10.68.170.184:8080/music/api/user, {'nickName':'cc','role':{'id':...)</span>
+                <span class="method-start">1606 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">f(37, , , 昵称字段不存在, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c12','role':{'id':...)</span>
+                <span class="method-start">1606 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">f(38, , , 密码字段不存在, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c13','nickName':'c...)</span>
+                <span class="method-start">1607 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">f(39, , （特殊字符、长度、重复操作）, , , , , , , , , , , )</span>
+                <span class="method-start">1608 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">f(40, , , 用户名有空格, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c 20','nickName':'c...)</span>
+                <span class="method-start">1608 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">f(41, , , 昵称有空格, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c19','nickName':'c c...)</span>
+                <span class="method-start">1609 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">f(42, , , 密码有空格, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c18','nickName':'cc'...)</span>
+                <span class="method-start">1609 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">f(43, , , 用户名有单引号, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c\'15','nickName':...)</span>
+                <span class="method-start">1610 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">f(44, , , 昵称有单引号, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c16','nickName':'c\...)</span>
+                <span class="method-start">1611 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">f(45, , , 密码有单引号, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c17','nickName':'cc...)</span>
+                <span class="method-start">1612 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">f(46, , , 用户名有双引号, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c\"21','nickName':...)</span>
+                <span class="method-start">1612 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">f(47, , , 昵称有双引号, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c22','nickName':'c\...)</span>
+                <span class="method-start">1613 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">f(48, , , 密码有双引号, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c23','nickName':'cc...)</span>
+                <span class="method-start">1614 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">f(49, , , 用户名有表情☜, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c☜','nickName':'cc...)</span>
+                <span class="method-start">1615 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">f(50, , , 昵称有表情☜, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c24','nickName':'c☜...)</span>
+                <span class="method-start">1616 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">f(51, , , 密码有表情☜, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c25','nickName':'cc...)</span>
+                <span class="method-start">1617 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">f(52, , , 用户名有特殊字符??, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c??','nickName'...)</span>
+                <span class="method-start">1618 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">f(53, , , 昵称有特殊字符??, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c26','nickName':...)</span>
+                <span class="method-start">1619 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">f(54, , , 密码有特殊字符??, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c27','nickName':...)</span>
+                <span class="method-start">1619 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">f(55, , , 用户名长度操作100个字, postJson, http://10.68.170.184:8080/music/api/user, {'username':'cRoyperlly1pe...)</span>
+                <span class="method-start">1620 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">f(56, , , 昵称长度操作100个字, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c28','nickName...)</span>
+                <span class="method-start">1621 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">f(57, , , 密码长度操作100个字, postJson, http://10.68.170.184:8080/music/api/user, {'username':'c29','nickName...)</span>
+                <span class="method-start">1621 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">f(58, , 逻辑组合, , , , , , , , , , , )</span>
+                <span class="method-start">1622 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">f(59, , , 登出, post, http://10.68.170.184:8080/music/api/logout, , , equal, result, $.result, success, ...)</span>
+                <span class="method-start">1623 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">f(60, , , 未登录进行添加用户, postJson, http://10.68.170.184:8080/music/api/user, {'username':'cadmin2','nickNa...)</span>
+                <span class="method-start">1624 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-suite after">
+                <span class="method-name">afterSuite</span>
+                <span class="method-start">1682 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

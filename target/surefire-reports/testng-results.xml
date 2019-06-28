@@ -1,0 +1,4581 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="60" passed="60">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="202" started-at="2019-06-28T07:14:32Z" finished-at="2019-06-28T07:14:33Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="202" started-at="2019-06-28T07:14:32Z" finished-at="2019-06-28T07:14:33Z">
+      <class name="com.music.maven.DataDrivenInvoke1">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.music.maven.DataDrivenInvoke1@6b2fad11]" name="beforeSuite" is-config="true" duration-ms="1425" started-at="2019-06-28T07:14:31Z" finished-at="2019-06-28T07:14:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.music.maven.DataDrivenInvoke1@6b2fad11]" name="f" duration-ms="1" started-at="2019-06-28T07:14:33Z" data-provider="keywords" finished-at="2019-06-28T07:14:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[新增用户接口]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.music.maven.DataDrivenInvoke1@6b2fad11]" name="f" duration-ms="1" started-at="2019-06-28T07:14:33Z" data-provider="keywords" finished-at="2019-06-28T07:14:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[前置操作]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.music.maven.DataDrivenInvoke1@6b2fad11]" name="f" duration-ms="1" started-at="2019-06-28T07:14:33Z" data-provider="keywords" finished-at="2019-06-28T07:14:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[记录cookie]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[savecookie]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[savecookie]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.music.maven.DataDrivenInvoke1@6b2fad11]" name="f" duration-ms="1" started-at="2019-06-28T07:14:33Z" data-provider="keywords" finished-at="2019-06-28T07:14:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[登录]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[post]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[http://10.68.170.184:8080/music/api/login]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[username=admin&password=123456]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[equal]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[message]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[$.message]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[登录成功]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.music.maven.DataDrivenInvoke1@6b2fad11]" name="f" duration-ms="0" started-at="2019-06-28T07:14:33Z" data-provider="keywords" finished-at="2019-06-28T07:14:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[注册]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[postJson]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[http://10.68.170.184:8080/music/api/user]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[{'username':'admin1','nickName':'cc','role':{'id':'1'},'password':'c123456'}]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[equal]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[code]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[$.code]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.music.maven.DataDrivenInvoke1@6b2fad11]" name="f" duration-ms="2" started-at="2019-06-28T07:14:33Z" data-provider="keywords" finished-at="2019-06-28T07:14:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[边界值用例]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.music.maven.DataDrivenInvoke1@6b2fad11]" name="f" duration-ms="0" started-at="2019-06-28T07:14:33Z" data-provider="keywords" finished-at="2019-06-28T07:14:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[用户名1位]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[postJson]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[http://10.68.170.184:8080/music/api/user]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[{'username':'c','nickName':'c','role':{'id':'1'},'password':'c123456'}]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[equal]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[code]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[$.code]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.music.maven.DataDrivenInvoke1@6b2fad11]" name="f" duration-ms="0" started-at="2019-06-28T07:14:33Z" data-provider="keywords" finished-at="2019-06-28T07:14:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[用户名2位]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[postJson]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[http://10.68.170.184:8080/music/api/user]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[{'username':'cc','nickName':'cc','role':{'id':'1'},'password':'c123456'}]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[equal]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[code]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[$.code]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.music.maven.DataDrivenInvoke1@6b2fad11]" name="f" duration-ms="1" started-at="2019-06-28T07:14:33Z" data-provider="keywords" finished-at="2019-06-28T07:14:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[密码5位]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[postJson]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[http://10.68.170.184:8080/music/api/user]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[{'username':'c1','nickName':'cc','role':{'id':'1'},'password':'c1234'}]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[equal]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[code]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[$.code]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.music.maven.DataDrivenInvoke1@6b2fad11]" name="f" duration-ms="0" started-at="2019-06-28T07:14:33Z" data-provider="keywords" finished-at="2019-06-28T07:14:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[用户名18位]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[postJson]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[http://10.68.170.184:8080/music/api/user]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[{'username':'cccccccccccccccccc','nickName':'ccc','role':{'id':'1'},'password':'c123456'}]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[equal]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[code]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[$.code]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.music.maven.DataDrivenInvoke1@6b2fad11]" name="f" duration-ms="0" started-at="2019-06-28T07:14:33Z" data-provider="keywords" finished-at="2019-06-28T07:14:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[密码6位]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[postJson]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[http://10.68.170.184:8080/music/api/user]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[{'username':'c2','nickName':'cc','role':{'id':'1'},'password':'c12345'}]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[equal]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[code]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[$.code]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.music.maven.DataDrivenInvoke1@6b2fad11]" name="f" duration-ms="0" started-at="2019-06-28T07:14:33Z" data-provider="keywords" finished-at="2019-06-28T07:14:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[13]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[密码17位]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[postJson]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[http://10.68.170.184:8080/music/api/user]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[{'username':'c4','nickName':'cc','role':{'id':'1'},'password':'c1234560000000000'}]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[equal]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[code]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[$.code]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.music.maven.DataDrivenInvoke1@6b2fad11]" name="f" duration-ms="0" started-at="2019-06-28T07:14:33Z" data-provider="keywords" finished-at="2019-06-28T07:14:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[密码7位]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[postJson]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[http://10.68.170.184:8080/music/api/user]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[{'username':'c3','nickName':'cc','role':{'id':'1'},'password':'c123456'}]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[equal]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[code]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[$.code]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.music.maven.DataDrivenInvoke1@6b2fad11]" name="f" duration-ms="0" started-at="2019-06-28T07:14:33Z" data-provider="keywords" finished-at="2019-06-28T07:14:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[14]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[密码18位]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[postJson]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[http://10.68.170.184:8080/music/api/user]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[{'username':'c5','nickName':'cc','role':{'id':'1'},'password':'c12345600000000000'}]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[equal]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[code]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[$.code]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.music.maven.DataDrivenInvoke1@6b2fad11]" name="f" duration-ms="1" started-at="2019-06-28T07:14:33Z" data-provider="keywords" finished-at="2019-06-28T07:14:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[15]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[密码19位]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[postJson]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[http://10.68.170.184:8080/music/api/user]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[{'username':'c6','nickName':'cc','role':{'id':'1'},'password':'c123456000000000000'}]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[equal]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[code]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[$.code]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.music.maven.DataDrivenInvoke1@6b2fad11]" name="f" duration-ms="1" started-at="2019-06-28T07:14:33Z" data-provider="keywords" finished-at="2019-06-28T07:14:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[16]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[昵称1位]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[postJson]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[http://10.68.170.184:8080/music/api/user]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[{'username':'c7','nickName':'c','role':{'id':'1'},'password':'c123456'}]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[equal]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[code]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[$.code]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.music.maven.DataDrivenInvoke1@6b2fad11]" name="f" duration-ms="0" started-at="2019-06-28T07:14:33Z" data-provider="keywords" finished-at="2019-06-28T07:14:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[17]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[昵称2位]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[postJson]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[http://10.68.170.184:8080/music/api/user]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[{'username':'c8','nickName':'cc','role':{'id':'1'},'password':'c123456'}]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[equal]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[code]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[$.code]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.music.maven.DataDrivenInvoke1@6b2fad11]" name="f" duration-ms="2" started-at="2019-06-28T07:14:33Z" data-provider="keywords" finished-at="2019-06-28T07:14:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[18]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[昵称18位]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[postJson]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[http://10.68.170.184:8080/music/api/user]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[{'username':'c9','nickName':'cccccccccccccccccc','role':{'id':'1'},'password':'c123456'}]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[equal]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[code]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[$.code]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.music.maven.DataDrivenInvoke1@6b2fad11]" name="f" duration-ms="0" started-at="2019-06-28T07:14:33Z" data-provider="keywords" finished-at="2019-06-28T07:14:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[19]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[等价类用例]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.music.maven.DataDrivenInvoke1@6b2fad11]" name="f" duration-ms="1" started-at="2019-06-28T07:14:33Z" data-provider="keywords" finished-at="2019-06-28T07:14:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[21]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[昵称包含中文]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[postJson]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[http://10.68.170.184:8080/music/api/user]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[{'username':'c10','nickName':'测试','role':{'id':'1'},'password':'c123456'}]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[equal]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[code]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[$.code]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.music.maven.DataDrivenInvoke1@6b2fad11]" name="f" duration-ms="0" started-at="2019-06-28T07:14:33Z" data-provider="keywords" finished-at="2019-06-28T07:14:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[用户名包含中文]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[postJson]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[http://10.68.170.184:8080/music/api/user]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[{'username':'c测试','nickName':'cc','role':{'id':'1'},'password':'c123456'}]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[equal]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[code]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[$.code]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.music.maven.DataDrivenInvoke1@6b2fad11]" name="f" duration-ms="0" started-at="2019-06-28T07:14:33Z" data-provider="keywords" finished-at="2019-06-28T07:14:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[22]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[密码包含中文]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[postJson]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[http://10.68.170.184:8080/music/api/user]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[{'username':'c11','nickName':'c11','role':{'id':'1'},'password':'测试c123456'}]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[equal]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[code]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[$.code]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.music.maven.DataDrivenInvoke1@6b2fad11]" name="f" duration-ms="0" started-at="2019-06-28T07:14:33Z" data-provider="keywords" finished-at="2019-06-28T07:14:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[24]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[填写多余参数]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[postJson]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[http://10.68.170.184:8080/music/api/user]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[{'username':'c40','nickName':'cc','role':{'id':'1'},'password':'c1234','cc':'a123456'}]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[equal]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[code]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[$.code]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.music.maven.DataDrivenInvoke1@6b2fad11]" name="f" duration-ms="0" started-at="2019-06-28T07:14:33Z" data-provider="keywords" finished-at="2019-06-28T07:14:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[23]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[用户名已存在]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[postJson]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[http://10.68.170.184:8080/music/api/user]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[{'username':'c1','nickName':'cc','role':{'id':'1'},'password':'c1234'}]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[equal]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[data]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[$.data]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[记录已存在]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.music.maven.DataDrivenInvoke1@6b2fad11]" name="f" duration-ms="0" started-at="2019-06-28T07:14:33Z" data-provider="keywords" finished-at="2019-06-28T07:14:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[25]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[密码为6位纯数字]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[postJson]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[http://10.68.170.184:8080/music/api/user]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[{'username':'c30','nickName':'cc','role':{'id':'1'},'password':'cccccc'}]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[equal]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[detail]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[$.detail]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[密码必须为6-18位字母、数字组成]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.music.maven.DataDrivenInvoke1@6b2fad11]" name="f" duration-ms="1" started-at="2019-06-28T07:14:33Z" data-provider="keywords" finished-at="2019-06-28T07:14:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[26]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[密码为6位纯字母]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[postJson]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[http://10.68.170.184:8080/music/api/user]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[{'username':'c31','nickName':'cc','role':{'id':'1'},'password':'111111'}]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[equal]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[detail]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[$.detail]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[密码必须为6-18位字母、数字组成]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.music.maven.DataDrivenInvoke1@6b2fad11]" name="f" duration-ms="0" started-at="2019-06-28T07:14:33Z" data-provider="keywords" finished-at="2019-06-28T07:14:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[27]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[用户名为纯数字]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[postJson]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[http://10.68.170.184:8080/music/api/user]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[{'username':'30','nickName':'cc','role':{'id':'1'},'password':'c123456'}]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[equal]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[code]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[$.code]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.music.maven.DataDrivenInvoke1@6b2fad11]" name="f" duration-ms="1" started-at="2019-06-28T07:14:33Z" data-provider="keywords" finished-at="2019-06-28T07:14:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[28]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[用户名为纯字母]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[postJson]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[http://10.68.170.184:8080/music/api/user]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[{'username':'ccccc','nickName':'cc','role':{'id':'1'},'password':'c11111'}]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[equal]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[code]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[$.code]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.music.maven.DataDrivenInvoke1@6b2fad11]" name="f" duration-ms="0" started-at="2019-06-28T07:14:33Z" data-provider="keywords" finished-at="2019-06-28T07:14:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[29]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[昵称为纯数字]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[postJson]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[http://10.68.170.184:8080/music/api/user]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[{'username':'c32','nickName':'11111','role':{'id':'1'},'password':'c123456'}]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[equal]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[code]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[$.code]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.music.maven.DataDrivenInvoke1@6b2fad11]" name="f" duration-ms="0" started-at="2019-06-28T07:14:33Z" data-provider="keywords" finished-at="2019-06-28T07:14:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[30]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[昵称为纯字母]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[postJson]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[http://10.68.170.184:8080/music/api/user]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[{'username':'c33','nickName':'ccccccc','role':{'id':'1'},'password':'c11111'}]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[equal]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[code]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[$.code]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.music.maven.DataDrivenInvoke1@6b2fad11]" name="f" duration-ms="1" started-at="2019-06-28T07:14:33Z" data-provider="keywords" finished-at="2019-06-28T07:14:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[32]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[（空输入）]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.music.maven.DataDrivenInvoke1@6b2fad11]" name="f" duration-ms="0" started-at="2019-06-28T07:14:33Z" data-provider="keywords" finished-at="2019-06-28T07:14:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[31]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[异常用例]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.music.maven.DataDrivenInvoke1@6b2fad11]" name="f" duration-ms="1" started-at="2019-06-28T07:14:33Z" data-provider="keywords" finished-at="2019-06-28T07:14:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[34]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[昵称字段为空]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[postJson]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[http://10.68.170.184:8080/music/api/user]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[{'username':'c12','nickName':'','role':{'id':'1'},'password':'c123456'}]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[equal]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[detail]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[$.detail]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[用户名称不能为空]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.music.maven.DataDrivenInvoke1@6b2fad11]" name="f" duration-ms="0" started-at="2019-06-28T07:14:33Z" data-provider="keywords" finished-at="2019-06-28T07:14:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[33]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[用户名字段为空]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[postJson]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[http://10.68.170.184:8080/music/api/user]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[{'username':'','nickName':'cc','role':{'id':'1'},'password':'c123456'}]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[equal]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[detail]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[$.detail]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[账号不能为空]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.music.maven.DataDrivenInvoke1@6b2fad11]" name="f" duration-ms="0" started-at="2019-06-28T07:14:33Z" data-provider="keywords" finished-at="2019-06-28T07:14:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[35]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[密码字段为空]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[postJson]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[http://10.68.170.184:8080/music/api/user]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[{'username':'c13','nickName':'c11','role':{'id':'1'},'password':''}]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[equal]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[detail]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[$.detail]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[密码不能为空]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.music.maven.DataDrivenInvoke1@6b2fad11]" name="f" duration-ms="0" started-at="2019-06-28T07:14:33Z" data-provider="keywords" finished-at="2019-06-28T07:14:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[36]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[用户名字段不存在]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[postJson]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[http://10.68.170.184:8080/music/api/user]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[{'nickName':'cc','role':{'id':'1'},'password':'c123457'}]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[equal]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[detail]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[$.detail]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[账号不能为空]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.music.maven.DataDrivenInvoke1@6b2fad11]" name="f" duration-ms="1" started-at="2019-06-28T07:14:33Z" data-provider="keywords" finished-at="2019-06-28T07:14:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[37]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[昵称字段不存在]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[postJson]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[http://10.68.170.184:8080/music/api/user]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[{'username':'c12','role':{'id':'1'},'password':'c123457'}]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[equal]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[detail]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[$.detail]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[用户名称不能为空]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.music.maven.DataDrivenInvoke1@6b2fad11]" name="f" duration-ms="0" started-at="2019-06-28T07:14:33Z" data-provider="keywords" finished-at="2019-06-28T07:14:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[38]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[密码字段不存在]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[postJson]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[http://10.68.170.184:8080/music/api/user]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[{'username':'c13','nickName':'c11','role':{'id':'2'}}]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[equal]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[detail]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[$.detail]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[密码不能为空]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.music.maven.DataDrivenInvoke1@6b2fad11]" name="f" duration-ms="0" started-at="2019-06-28T07:14:33Z" data-provider="keywords" finished-at="2019-06-28T07:14:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[40]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[用户名有空格]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[postJson]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[http://10.68.170.184:8080/music/api/user]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[{'username':'c 20','nickName':'cc','role':{'id':'1'},'password':'c1234'}]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[equal]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[code]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[$.code]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.music.maven.DataDrivenInvoke1@6b2fad11]" name="f" duration-ms="0" started-at="2019-06-28T07:14:33Z" data-provider="keywords" finished-at="2019-06-28T07:14:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[39]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[（特殊字符、长度、重复操作）]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.music.maven.DataDrivenInvoke1@6b2fad11]" name="f" duration-ms="0" started-at="2019-06-28T07:14:33Z" data-provider="keywords" finished-at="2019-06-28T07:14:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[41]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[昵称有空格]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[postJson]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[http://10.68.170.184:8080/music/api/user]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[{'username':'c19','nickName':'c c','role':{'id':'1'},'password':'c1234'}]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[equal]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[code]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[$.code]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.music.maven.DataDrivenInvoke1@6b2fad11]" name="f" duration-ms="0" started-at="2019-06-28T07:14:33Z" data-provider="keywords" finished-at="2019-06-28T07:14:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[42]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[密码有空格]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[postJson]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[http://10.68.170.184:8080/music/api/user]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[{'username':'c18','nickName':'cc','role':{'id':'1'},'password':'c 1234'}]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[equal]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[code]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[$.code]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.music.maven.DataDrivenInvoke1@6b2fad11]" name="f" duration-ms="0" started-at="2019-06-28T07:14:33Z" data-provider="keywords" finished-at="2019-06-28T07:14:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[43]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[用户名有单引号]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[postJson]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[http://10.68.170.184:8080/music/api/user]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[{'username':'c\'15','nickName':'cc','role':{'id':'1'},'password':'c1234'}]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[equal]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[code]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[$.code]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.music.maven.DataDrivenInvoke1@6b2fad11]" name="f" duration-ms="0" started-at="2019-06-28T07:14:33Z" data-provider="keywords" finished-at="2019-06-28T07:14:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[44]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[昵称有单引号]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[postJson]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[http://10.68.170.184:8080/music/api/user]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[{'username':'c16','nickName':'c\'c','role':{'id':'1'},'password':'c1234'}]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[equal]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[code]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[$.code]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.music.maven.DataDrivenInvoke1@6b2fad11]" name="f" duration-ms="1" started-at="2019-06-28T07:14:33Z" data-provider="keywords" finished-at="2019-06-28T07:14:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[46]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[用户名有双引号]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[postJson]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[http://10.68.170.184:8080/music/api/user]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[{'username':'c\"21','nickName':'cc','role':{'id':'1'},'password':'c1234'}]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[equal]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[code]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[$.code]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.music.maven.DataDrivenInvoke1@6b2fad11]" name="f" duration-ms="0" started-at="2019-06-28T07:14:33Z" data-provider="keywords" finished-at="2019-06-28T07:14:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[45]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[密码有单引号]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[postJson]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[http://10.68.170.184:8080/music/api/user]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[{'username':'c17','nickName':'cc','role':{'id':'1'},'password':'c\'1234'}]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[equal]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[code]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[$.code]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.music.maven.DataDrivenInvoke1@6b2fad11]" name="f" duration-ms="0" started-at="2019-06-28T07:14:33Z" data-provider="keywords" finished-at="2019-06-28T07:14:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[47]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[昵称有双引号]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[postJson]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[http://10.68.170.184:8080/music/api/user]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[{'username':'c22','nickName':'c\"c','role':{'id':'1'},'password':'c1234'}]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[equal]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[code]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[$.code]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.music.maven.DataDrivenInvoke1@6b2fad11]" name="f" duration-ms="0" started-at="2019-06-28T07:14:33Z" data-provider="keywords" finished-at="2019-06-28T07:14:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[48]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[密码有双引号]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[postJson]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[http://10.68.170.184:8080/music/api/user]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[{'username':'c23','nickName':'cc','role':{'id':'1'},'password':'c\"1234'}]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[equal]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[code]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[$.code]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.music.maven.DataDrivenInvoke1@6b2fad11]" name="f" duration-ms="0" started-at="2019-06-28T07:14:33Z" data-provider="keywords" finished-at="2019-06-28T07:14:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[49]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[用户名有表情☜]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[postJson]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[http://10.68.170.184:8080/music/api/user]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[{'username':'c☜','nickName':'cc','role':{'id':'1'},'password':'c1234'}]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[equal]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[code]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[$.code]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.music.maven.DataDrivenInvoke1@6b2fad11]" name="f" duration-ms="0" started-at="2019-06-28T07:14:33Z" data-provider="keywords" finished-at="2019-06-28T07:14:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[50]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[昵称有表情☜]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[postJson]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[http://10.68.170.184:8080/music/api/user]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[{'username':'c24','nickName':'c☜','role':{'id':'1'},'password':'c1234'}]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[equal]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[code]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[$.code]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.music.maven.DataDrivenInvoke1@6b2fad11]" name="f" duration-ms="0" started-at="2019-06-28T07:14:33Z" data-provider="keywords" finished-at="2019-06-28T07:14:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[51]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[密码有表情☜]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[postJson]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[http://10.68.170.184:8080/music/api/user]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[{'username':'c25','nickName':'cc','role':{'id':'1'},'password':'c☜1234'}]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[equal]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[code]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[$.code]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.music.maven.DataDrivenInvoke1@6b2fad11]" name="f" duration-ms="0" started-at="2019-06-28T07:14:33Z" data-provider="keywords" finished-at="2019-06-28T07:14:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[52]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[用户名有特殊字符??]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[postJson]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[http://10.68.170.184:8080/music/api/user]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[{'username':'c??','nickName':'cc','role':{'id':'1'},'password':'c1234'}]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[equal]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[code]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[$.code]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.music.maven.DataDrivenInvoke1@6b2fad11]" name="f" duration-ms="0" started-at="2019-06-28T07:14:33Z" data-provider="keywords" finished-at="2019-06-28T07:14:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[53]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[昵称有特殊字符??]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[postJson]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[http://10.68.170.184:8080/music/api/user]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[{'username':'c26','nickName':'c??','role':{'id':'1'},'password':'c1234'}]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[equal]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[code]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[$.code]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.music.maven.DataDrivenInvoke1@6b2fad11]" name="f" duration-ms="1" started-at="2019-06-28T07:14:33Z" data-provider="keywords" finished-at="2019-06-28T07:14:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[54]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[密码有特殊字符??]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[postJson]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[http://10.68.170.184:8080/music/api/user]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[{'username':'c27','nickName':'cc','role':{'id':'1'},'password':'c??1234'}]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[equal]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[code]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[$.code]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.music.maven.DataDrivenInvoke1@6b2fad11]" name="f" duration-ms="0" started-at="2019-06-28T07:14:33Z" data-provider="keywords" finished-at="2019-06-28T07:14:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[55]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[用户名长度操作100个字]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[postJson]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[http://10.68.170.184:8080/music/api/user]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[{'username':'cRoyperlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1','nickName':'cc','role':{'id':'1'},'password':'c1234'}]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[equal]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[code]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[$.code]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.music.maven.DataDrivenInvoke1@6b2fad11]" name="f" duration-ms="0" started-at="2019-06-28T07:14:33Z" data-provider="keywords" finished-at="2019-06-28T07:14:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[56]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[昵称长度操作100个字]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[postJson]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[http://10.68.170.184:8080/music/api/user]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[{'username':'c28','nickName':'cRoyperlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1','role':{'id':'1'},'password':'c1234'}]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[equal]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[code]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[$.code]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.music.maven.DataDrivenInvoke1@6b2fad11]" name="f" duration-ms="1" started-at="2019-06-28T07:14:33Z" data-provider="keywords" finished-at="2019-06-28T07:14:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[57]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[密码长度操作100个字]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[postJson]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[http://10.68.170.184:8080/music/api/user]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[{'username':'c29','nickName':'cc','role':{'id':'1'},'password':'cRoyperlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1perlly1'}]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[equal]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[code]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[$.code]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.music.maven.DataDrivenInvoke1@6b2fad11]" name="f" duration-ms="1" started-at="2019-06-28T07:14:33Z" data-provider="keywords" finished-at="2019-06-28T07:14:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[58]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[逻辑组合]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.music.maven.DataDrivenInvoke1@6b2fad11]" name="f" duration-ms="0" started-at="2019-06-28T07:14:33Z" data-provider="keywords" finished-at="2019-06-28T07:14:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[59]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[登出]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[post]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[http://10.68.170.184:8080/music/api/logout]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[equal]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[result]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[$.result]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[success]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.music.maven.DataDrivenInvoke1@6b2fad11]" name="f" duration-ms="0" started-at="2019-06-28T07:14:33Z" data-provider="keywords" finished-at="2019-06-28T07:14:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[60]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[未登录进行添加用户]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[postJson]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[http://10.68.170.184:8080/music/api/user]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[{'username':'cadmin2','nickName':'cc2','role':{'id':'1'},'password':'c123456'}]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[equal]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[message]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[$.message]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[您还未登录]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.music.maven.DataDrivenInvoke1@6b2fad11]" name="afterSuite" is-config="true" duration-ms="117" started-at="2019-06-28T07:14:33Z" finished-at="2019-06-28T07:14:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.music.maven.DataDrivenInvoke1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
